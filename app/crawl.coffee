@@ -1,3 +1,5 @@
+parser = require "lib/parser"
+
 Crawler = ->
 
 Crawler:: = 
@@ -6,7 +8,7 @@ Crawler:: =
   errors: []
 
   initialize: (info) ->
-    @queries = [].concat(info.elinks, info.glinks)
+    @queries = [].concat info.elinks#, info.glinks
 
     @currentQuery = @queries.shift()
 
@@ -36,46 +38,6 @@ Crawler:: =
 
     div = $("<div>").html(text)
 
-    # detag these bad boys
-    $("a, span", div).each (i, el) ->
-      el.outerHTML = el.textContent
-
-     div.contents().each ->
-        if @nodeType is 8
-          $(this).remove()
-
-    # remove those pesky edit notes
-    div.html div.html().replace(/\[edit\]/gi, "")
-    div.html div.html().replace(/[\s|\n]+/gi, " ")
-
-    # get the eq of the first occurance of
-    # any title and remove proceeding content
-    eq = Infinity
-    titles =
-      ["Notes", "See also", "References", "Further reading", "External Links", "Bibliography"]
-
-    $("h2", div).each (i, el) ->
-      for title in titles
-        eq = $(el).index() if el.textContent is title and $(el).index() < eq
-
-    while eq < div.contents().length - 1 and div.children().get(eq)
-      div.children().get(eq).outerHTML = ""
-
-    # remove all of these suckers
-    $("sup, sub, img, table", div).remove()
-
-    # clear some attributes
-    div.contents().each ->
-      @outerHTML = "" if @textContent is ""
-      $(@).removeAttr("style")
-          .removeAttr("class")
-          .removeAttr("id")
-          .removeAttr("title")
-          .removeAttr("scope")
-
-    # voila
-    @data.push 
-      title: data.parse.title
-      html: div.html()
+    @data.push parser.parseElementData(div, data.parse.title)
 
 module.exports = Crawler

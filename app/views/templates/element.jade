@@ -1,7 +1,7 @@
-a.el-container(href="#element/#{element.get("atom")}",
-               id="el-#{element.get("symbol").toLowerCase()}",
-               class="#{element.get("category")} #{element.get("state")}",
-               data-number=element.get("atomic_number"))
+a.el-container(href="#element/#{element.get("Name")}",
+               id="el-#{element.get("Symbol").toLowerCase()}",
+               class="#{element.get("Category").split(" ").join("-")} #{element.get("Phase")}",
+               data-number=element.get("Number"))
   .el
-    .num= element.get("atomic_number")
-    .symbol= element.get("symbol")
+    .num= element.get("Number")
+    .symbol= element.get("Symbol")

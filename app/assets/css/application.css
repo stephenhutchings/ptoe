@@ -173,10 +173,10 @@ a {
   padding: 2px;
 }
 #keys .key-list.genre .span2 {
-  width: 78px;
+  width: 118px;
 }
 #keys .key-list.genre .span6 {
-  width: 238px;
+  width: 278px;
 }
 #keys .key-list.material .key-item {
   line-height: 100%;
@@ -291,7 +291,7 @@ body {
   color: #b8cfd9;
 }
 
-.grey {
+.halogen {
   background-image: -webkit-linear-gradient(top, #ffef6e 0%, #ffeb50 100%);
   background-color: #ffed5f;
   background-size: auto;
@@ -303,19 +303,19 @@ body {
   background-size: auto;
 }
 
-.alkali-earth {
+.alkaline-earth-metal {
   background-image: -webkit-linear-gradient(top, #54ba88 0%, #45ab78 100%);
   background-color: #49b680;
   background-size: auto;
 }
 
-.lanthanide-metal {
+.lanthanide {
   background-image: -webkit-linear-gradient(top, #536472 0%, #475460 100%);
   background-color: #4d5c69;
   background-size: auto;
 }
 
-.actinide-metal {
+.actinide {
   background-image: -webkit-linear-gradient(top, #487eaa 0%, #3e6e94 100%);
   background-color: #43769f;
   background-size: auto;
@@ -327,19 +327,25 @@ body {
   background-size: auto;
 }
 
-.poor-metal {
+.post-transition-metal {
+  background-image: -webkit-linear-gradient(top, #bf75d2 0%, #b55dca 100%);
+  background-color: #ba69ce;
+  background-size: auto;
+}
+
+.metalloid {
   background-image: -webkit-linear-gradient(top, #7f79b4 0%, #6d65aa 100%);
   background-color: #766faf;
   background-size: auto;
 }
 
-.other-nonmetal {
+.nonmetal {
   background-image: -webkit-linear-gradient(top, #00d7d1 0%, #00b9b3 100%);
   background-color: #00c8c2;
   background-size: auto;
 }
 
-.noble-gas {
+.noble-gases {
   background-image: -webkit-linear-gradient(top, #36ccdb 0%, #25bfce 100%);
   background-color: #29c9d9;
   background-size: auto;

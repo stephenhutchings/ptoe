@@ -30,7 +30,8 @@ class PeriodicTableView extends Backbone.View
     for el, i in @el.querySelectorAll(".el-container")
       @elements.push new ElementView
         el: el
-        model: application.elementCollection.findWhere "atomic_number": +el.dataset.number
+        model: application.elementCollection.findWhere "Number": +el.dataset.number
+
 
   savePosition: (e) ->
     if e.data.touches

@@ -22,11 +22,9 @@ class ElementView extends Backbone.View
 
   route: (e) ->
     if @el.classList.toggle "active-sort"
-      application.router.navigate "element/#{@model.get("atom")}", true
+      application.router.navigate "element/#{@model.get("Name")}", true
     else
       application.router.navigate "", true
-
-    false
 
 
   # hide() will make the element disappear, and if given a position

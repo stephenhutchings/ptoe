@@ -25,6 +25,7 @@ Requires Brunch 1.3+.
 ## To-Do's
 * Match WIKIPEDIA categories
 * Element configuration animation
+* Display basic data
 * Graphical optimisation
 * Swipe between element details
 * Literate coffee
