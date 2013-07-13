@@ -1,31 +1,33 @@
+# Periodic Table of the Elements
+
+Designed to run as a web app, optimised for the iPad.
+Data from [Wikipedia](http://www.wikipedia.org)
+
+----
+
+# Development
+
+## Getting started
+* Build the project with `brunch b` or `brunch w`.
+* Run tests with `brunch t`
+
 # Brunch with Jade, Bootstrap, SASS, and CoffeeScript
 This is a skeleton (boilerplate) for [Brunch](http://brunch.io)
 
 Requires Brunch 1.3+.
 
-## Getting started
-* Create new project with `brunch new <project name> -s git://github.com/Mapvine/brunch-jade-bootstrap-and-coffee.git`.
-* Build the project with `brunch b` or `brunch w`.
-* Run tests with `brunch t`
-* Open the `public/` dir to see the result.
-* Write your code.
-
 ## Features
-* Templating with [Jade](http://jade-lang.com)
-* [CoffeeScript](http://coffeescript.org)
-* [Backbone 1.0.0](http://backbonejs.org) for client-side MVC and routing
+* [SASS](http://sass-lang.com) stylesheets
+* [Jade](http://jade-lang.com) templates
+* [CoffeeScript](http://coffeescript.org) logic
+* [Backbone 1.0.0](http://backbonejs.org) structure
 
-## License
-The MIT license.
-
-Copyright (c) 2012 MapVine LLC
-
-
-## Todo's
+## To-Do's
+* Match WIKIPEDIA categories
 * Element configuration animation
 * Graphical optimisation
 * Swipe between element details
 * Literate coffee
 
-Done
+## To-Done's
 * Routing
