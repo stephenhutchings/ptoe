@@ -1,0 +1,81 @@
+#elements {
+  clear: both;
+  position: absolute;
+  margin: 0 44px 44px;
+  bottom: 0;
+  font-size: 20px;
+  -webkit-transform: translateZ(0);
+}
+#elements .el, #elements .special {
+  float: left;
+}
+#elements .el {
+  width: 48px;
+  height: 48px;
+  margin: 2px;
+  border-radius: 4px;
+  -webkit-transition: all 800ms;
+  box-shadow: inset 0 1px 1px -1px rgba(255, 255, 255, 0.2), 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+#elements .num {
+  font-size: 12px;
+  padding: 2px 3px 0;
+}
+#elements .symbol {
+  font-size: 24px;
+  padding: 0 3px;
+}
+#elements .separator {
+  border: 0;
+  margin: 5px 0 0;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+#elements .extra-rows {
+  margin-top: 4px;
+  width: 780px;
+  height: 104px;
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  padding: 2px;
+  box-shadow: inset 0 1px 1px #111111, 0 1px 1px #444444;
+  z-index: -1;
+  padding-left: 50px;
+  margin-right: -2px;
+  border-radius: 0 8px 8px 8px;
+  -webkit-transition: opacity 300ms;
+}
+#elements .extra-rows .special {
+  height: 106px;
+  position: absolute;
+  width: 46px;
+  left: -1px;
+  top: -106px;
+  box-shadow: inset 0 1px 1px #111111, 0 1px 1px #444444;
+  border-radius: 4px 4px 0 0;
+}
+#elements .extra-rows .special .num {
+  margin-bottom: 32px;
+}
+#elements #el-he {
+  margin-left: 834px;
+}
+#elements #el-b,
+#elements #el-al {
+  margin-left: 522px;
+}
+#elements #el-hf,
+#elements #el-rf {
+  margin-left: 54px;
+}
+#elements #el-la,
+#elements #el-ac {
+  clear: both;
+  margin-left: 158px;
+}
+
+.main.sorted .extra-rows {
+  opacity: 0;
+}

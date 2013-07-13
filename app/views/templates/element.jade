@@ -1,0 +1,7 @@
+a.el-container(href="#element/#{element.get("atom")}",
+               id="el-#{element.get("symbol").toLowerCase()}",
+               class="#{element.get("category")} #{element.get("state")}",
+               data-number=element.get("atomic_number"))
+  .el
+    .num= element.get("atomic_number")
+    .symbol= element.get("symbol")

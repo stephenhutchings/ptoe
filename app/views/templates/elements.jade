@@ -1,0 +1,13 @@
+include key
+include info
+
+#elements
+  //- include special
+  for element in locals.filter(function(el){return !(el.get("category") == "lanthanide-metal" || el.get("category") == "actinide-metal");})
+    
+    include element
+
+  hr.separator
+
+  for element, i in locals.filter(function(el){return (el.get("category") == "lanthanide-metal" || el.get("category") == "actinide-metal");})
+    include element

@@ -1,0 +1,12 @@
+/* Abel font */
+@font-face {
+  font-family: "Abel-Regular";
+  src: url("fonts/abel/abel-regular.eot");
+  src: url("fonts/abel/abel-regular.eot?#iefix") format("embedded-opentype"), url("fonts/abel/abel-regular.woff") format("woff"), url("fonts/abel/abel-regular.ttf") format("truetype"), url("fonts/abel/abel-regular.svg#abel-regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  background-image: url("img/glyphicons-halflings-white");
+}

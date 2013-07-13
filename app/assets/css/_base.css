@@ -1,0 +1,24 @@
+/* line 1, ../../sass/base.sass */
+html,
+body {
+  width: 1024px;
+  height: 748px;
+  overflow: hidden;
+}
+
+/* line 7, ../../sass/base.sass */
+body {
+  font-family: "Abel-Regular", Abel, sans-serif;
+  position: relative;
+  margin: 0;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 17, ../../sass/base.sass */
+.main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
