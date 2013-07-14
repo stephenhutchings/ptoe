@@ -65,6 +65,8 @@ class PeriodicTableView extends Backbone.View
 
   defocus: ->
     @el.classList.remove "sorted"
+    for el in @el.querySelectorAll ".active-sort"
+      el.classList.remove "sorted"
     application.elementCollection
       .each (model) =>
         model.trigger "show"
