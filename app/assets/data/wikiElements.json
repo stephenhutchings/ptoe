@@ -1,6 +1,6 @@
 [
   {
-    "Name": "hydrogen",
+    "Name": "Hydrogen",
     "Symbol": "H",
     "Number": 1,
     "Pronunciation": "/ˈhaɪdrədʒən/ HY-drə-jən",
@@ -10,7 +10,9 @@
     "Block": "s",
     "Standard atomic weight": "1.007947(1)",
     "Electron configuration": "1s1",
-    "Visual configuration": [1],
+    "Visual configuration": [
+      1
+    ],
     "Discovery": "Henry Cavendish (1766)",
     "Named by": "Antoine Lavoisier (1783)",
     "Color": "colorless",
@@ -37,7 +39,7 @@
     "CAS registry number": "1333-74-0"
   },
   {
-    "Name": "helium",
+    "Name": "Helium",
     "Symbol": "He",
     "Number": 2,
     "Pronunciation": "/ˈhiːliəm/ HEE-lee-əm",
@@ -47,7 +49,9 @@
     "Block": "s",
     "Standard atomic weight": "4.002602(2)",
     "Electron configuration": "1s2",
-    "Visual configuration": [2],
+    "Visual configuration": [
+      2
+    ],
     "Naming": "after Helios, Greek god of the Sun",
     "Discovery": "Pierre Janssen, Norman Lockyer (1868)",
     "First isolation": "William Ramsay, Per Teodor Cleve, Abraham Langlet (1895)",
@@ -73,7 +77,7 @@
     "CAS registry number": "7440-59-7"
   },
   {
-    "Name": "lithium",
+    "Name": "Lithium",
     "Symbol": "Li",
     "Number": 3,
     "Pronunciation": "/ˈlɪθiəm/ LI-thee-əm",
@@ -83,7 +87,10 @@
     "Block": "s",
     "Standard atomic weight": "6.94(1)",
     "Electron configuration": "[He] 2s1",
-    "Visual configuration": [2, 1],
+    "Visual configuration": [
+      2,
+      1
+    ],
     "Discovery": "Johan August Arfwedson (1817)",
     "First isolation": "William Thomas Brande (1821)",
     "Phase": "solid",
@@ -114,7 +121,7 @@
     "CAS registry number": "7439-93-2"
   },
   {
-    "Name": "beryllium",
+    "Name": "Beryllium",
     "Symbol": "Be",
     "Number": 4,
     "Pronunciation": "/bəˈrɪliəm/ bə-RIL-ee-əm",
@@ -124,7 +131,10 @@
     "Block": "s",
     "Standard atomic weight": "9.012182(3)",
     "Electron configuration": "[He] 2s2",
-    "Visual configuration": [2, 2],
+    "Visual configuration": [
+      2,
+      2
+    ],
     "Discovery": "Louis Nicolas Vauquelin (1797)",
     "First isolation": "Friedrich Wöhler & Antoine Bussy (1828)",
     "Phase": "solid",
@@ -157,7 +167,7 @@
     "CAS registry number": "7440-41-7"
   },
   {
-    "Name": "boron",
+    "Name": "Boron",
     "Symbol": "B",
     "Number": 5,
     "Pronunciation": "/ˈbɔərɒn/",
@@ -167,7 +177,10 @@
     "Block": "p",
     "Standard atomic weight": "10.81(1)",
     "Electron configuration": "[He] 2s2 2p1",
-    "Visual configuration": [2, 3],
+    "Visual configuration": [
+      2,
+      3
+    ],
     "Discovery": "Joseph Louis Gay-Lussac and Louis Jacques Thénard (30 June 1808)",
     "First isolation": "Humphry Davy (9 July 1808)",
     "Phase": "solid",
@@ -193,7 +206,7 @@
     "CAS registry number": "7440-42-8"
   },
   {
-    "Name": "carbon",
+    "Name": "Carbon",
     "Symbol": "C",
     "Number": 6,
     "Pronunciation": "/ˈkɑrbən/",
@@ -203,7 +216,10 @@
     "Block": "p",
     "Standard atomic weight": "12.011(1)",
     "Electron configuration": "[He] 2s2 2p2",
-    "Visual configuration": [2, 4],
+    "Visual configuration": [
+      2,
+      4
+    ],
     "Discovery": "Egyptians and Sumerians (3750 BC)",
     "Recognized as an element by": "Antoine Lavoisier (1789)",
     "Phase": "solid",
@@ -230,7 +246,7 @@
     "CAS registry number": "7440-44-0"
   },
   {
-    "Name": "nitrogen",
+    "Name": "Nitrogen",
     "Symbol": "N",
     "Number": 7,
     "Pronunciation": "/ˈnaɪtrədʒən/ NY-trə-jən",
@@ -240,7 +256,10 @@
     "Block": "p",
     "Standard atomic weight": "14.007(1)",
     "Electron configuration": "[He] 2s2 2p3",
-    "Visual configuration": [2, 5],
+    "Visual configuration": [
+      2,
+      5
+    ],
     "Discovery": "Daniel Rutherford (1772)",
     "Named by": "Jean-Antoine Chaptal (1790)",
     "Phase": "gas",
@@ -265,7 +284,7 @@
     "CAS registry number": "7727-37-9"
   },
   {
-    "Name": "oxygen",
+    "Name": "Oxygen",
     "Symbol": "O",
     "Number": 8,
     "Pronunciation": "/ˈɒksɨdʒən/ OK-si-jən",
@@ -275,7 +294,10 @@
     "Block": "p",
     "Standard atomic weight": "15.999(4)",
     "Electron configuration": "[He] 2s2 2p4",
-    "Visual configuration": [2, 6],
+    "Visual configuration": [
+      2,
+      6
+    ],
     "Discovery": "Carl Wilhelm Scheele (1772)",
     "Named by": "Antoine Lavoisier (1777)",
     "Phase": "gas",
@@ -299,7 +321,7 @@
     "CAS registry number": "7782-44-7"
   },
   {
-    "Name": "fluorine",
+    "Name": "Fluorine",
     "Symbol": "F",
     "Number": 9,
     "Pronunciation": "/ˈflʊəriːn/ FLUU-reen, /ˈflʊərɪn/, /ˈflɔəriːn/",
@@ -309,7 +331,9 @@
     "Block": "p",
     "Standard atomic weight": "18.9984032(5)",
     "Electron configuration": "[He] 2s2 2p5",
-    "Visual configuration": [""],
+    "Visual configuration": [
+      ""
+    ],
     "Naming": "after the mineral fluorite, itself named after Latin fluo (to flow, in smelting)",
     "Discovery": "André-Marie Ampère (1810)",
     "First isolation": "Henri Moissan (June 26, 1886)",
@@ -333,7 +357,7 @@
     "CAS registry number": "7782-41-4"
   },
   {
-    "Name": "neon",
+    "Name": "Neon",
     "Symbol": "Ne",
     "Number": 10,
     "Pronunciation": "/ˈniːɒn/",
@@ -343,7 +367,10 @@
     "Block": "p",
     "Standard atomic weight": "20.1797(6)",
     "Electron configuration": "[He] 2s2 2p6",
-    "Visual configuration": [2, 8],
+    "Visual configuration": [
+      2,
+      8
+    ],
     "Prediction": "William Ramsay (1897)",
     "Discovery": "William Ramsay & Morris Travers (1898)",
     "First isolation": "William Ramsay & Morris Travers (1898)",
@@ -369,7 +396,7 @@
     "CAS registry number": "7440-01-9"
   },
   {
-    "Name": "sodium",
+    "Name": "Sodium",
     "Symbol": "Na",
     "Number": 11,
     "Pronunciation": "/ˈsoʊdiəm/ SOH-dee-əm",
@@ -379,7 +406,9 @@
     "Block": "s",
     "Standard atomic weight": "22.98976928(2)",
     "Electron configuration": "[Ne] 3s1",
-    "Visual configuration": ["2,8,1"],
+    "Visual configuration": [
+      "2,8,1"
+    ],
     "Discovery": "Humphry Davy (1807)",
     "First isolation": "Humphry Davy (1807)",
     "Phase": "solid",
@@ -411,7 +440,7 @@
     "CAS registry number": "7440-23-5"
   },
   {
-    "Name": "magnesium",
+    "Name": "Magnesium",
     "Symbol": "Mg",
     "Number": 12,
     "Pronunciation": "/mæɡˈniːziəm/\nmag-NEE-zee-əm",
@@ -421,7 +450,11 @@
     "Block": "s",
     "Standard atomic weight": "24.3050(6)",
     "Electron configuration": "[Ne] 3s2",
-    "Visual configuration": [2, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      2
+    ],
     "Naming": "after Magnesia, Greece",
     "Discovery": "Joseph Black (1755)",
     "First isolation": "Humphry Davy (1808)",
@@ -454,7 +487,7 @@
     "CAS registry number": "7439-95-4"
   },
   {
-    "Name": "aluminium",
+    "Name": "Aluminium",
     "Symbol": "Al",
     "Number": 13,
     "Pronunciation": "UK i/ˌæljʉˈmɪniəm/\nAL-ew-MIN-ee-əm;\nUS i/əˈljuːmɨnəm/\nə-LEW-mi-nəm",
@@ -464,7 +497,11 @@
     "Block": "p",
     "Standard atomic weight": "26.9815386(13)",
     "Electron configuration": "[Ne] 3s2 3p1",
-    "Visual configuration": [2, 8, 3],
+    "Visual configuration": [
+      2,
+      8,
+      3
+    ],
     "Prediction": "Antoine Lavoisier (1787)",
     "First isolation": "Friedrich Wöhler (1827)",
     "Named by": "Humphry Davy (1807)",
@@ -498,7 +535,7 @@
     "CAS registry number": "7429-90-5"
   },
   {
-    "Name": "silicon",
+    "Name": "Silicon",
     "Symbol": "Si",
     "Number": 14,
     "Pronunciation": "/ˈsɪlɨkən/ SIL-ə-kən or /ˈsɪlɨkɒn/ SIL-ə-kon",
@@ -508,7 +545,11 @@
     "Block": "p",
     "Standard atomic weight": "28.085(1)",
     "Electron configuration": "[Ne] 3s2 3p2",
-    "Visual configuration": [2, 8, 4],
+    "Visual configuration": [
+      2,
+      8,
+      4
+    ],
     "Prediction": "Antoine Lavoisier (1787)",
     "Discovery": "Jöns Jacob Berzelius (1823)",
     "First isolation": "Jöns Jacob Berzelius (1823)",
@@ -542,7 +583,7 @@
     "Band gap energy at 300 K": "1.12 eV"
   },
   {
-    "Name": "phosphorus",
+    "Name": "Phosphorus",
     "Symbol": "P",
     "Number": 15,
     "Pronunciation": "/ˈfɒsfərəs/ FOS-fər-əs",
@@ -552,7 +593,11 @@
     "Block": "p",
     "Standard atomic weight": "30.973762(2)",
     "Electron configuration": "[Ne] 3s2 3p3",
-    "Visual configuration": [2, 8, 5],
+    "Visual configuration": [
+      2,
+      8,
+      5
+    ],
     "Discovery": "Hennig Brand (1669)",
     "Recognized as an element by": "Antoine Lavoisier (1777)",
     "Phase": "solid",
@@ -575,7 +620,7 @@
     "CAS registry number": "7723-14-0"
   },
   {
-    "Name": "sulfur",
+    "Name": "Sulfur",
     "Symbol": "S",
     "Number": 16,
     "Pronunciation": "/ˈsʌlfər/ SUL-fər",
@@ -585,7 +630,11 @@
     "Block": "p",
     "Standard atomic weight": "32.066(1)",
     "Electron configuration": "[Ne] 3s2 3p4",
-    "Visual configuration": [2, 8, 6],
+    "Visual configuration": [
+      2,
+      8,
+      6
+    ],
     "Discovery": "Chinese (Before 2000BC)",
     "Recognized as an element by": "Antoine Lavoisier (1777)",
     "Phase": "solid",
@@ -611,7 +660,7 @@
     "CAS registry number": "7704-34-9"
   },
   {
-    "Name": "chlorine",
+    "Name": "Chlorine",
     "Symbol": "Cl",
     "Number": 17,
     "Pronunciation": "/ˈklɔəriːn/ KLOHR-een\nor /ˈklɔərɨn/ KLOHR-ən",
@@ -621,7 +670,11 @@
     "Block": "p",
     "Standard atomic weight": "35.45(1)",
     "Electron configuration": "[Ne] 3s2 3p5",
-    "Visual configuration": [2, 8, 7],
+    "Visual configuration": [
+      2,
+      8,
+      7
+    ],
     "Discovery": "Carl Wilhelm Scheele (1774)",
     "First isolation": "Carl Wilhelm Scheele (1774)",
     "Recognized as an element by": "Humphry Davy (1808)",
@@ -647,7 +700,7 @@
     "CAS registry number": "7782-50-5"
   },
   {
-    "Name": "argon",
+    "Name": "Argon",
     "Symbol": "Ar",
     "Number": 18,
     "Pronunciation": "/ˈɑrɡɒn/",
@@ -657,7 +710,11 @@
     "Block": "p",
     "Standard atomic weight": "39.948(1)",
     "Electron configuration": "[Ne] 3s2 3p6",
-    "Visual configuration": [2, 8, 8],
+    "Visual configuration": [
+      2,
+      8,
+      8
+    ],
     "Discovery": "Lord Rayleigh and William Ramsay (1894)",
     "First isolation": "Lord Rayleigh and William Ramsay (1894)",
     "Phase": "gas",
@@ -682,7 +739,7 @@
     "CAS registry number": "7440–37–1"
   },
   {
-    "Name": "potassium",
+    "Name": "Potassium",
     "Symbol": "K",
     "Number": 19,
     "Pronunciation": "/pɵˈtæsiəm/ po-TAS-ee-əm",
@@ -692,7 +749,12 @@
     "Block": "s",
     "Standard atomic weight": "39.0983(1)",
     "Electron configuration": "[Ar] 4s1",
-    "Visual configuration": [2, 8, 8, 1],
+    "Visual configuration": [
+      2,
+      8,
+      8,
+      1
+    ],
     "Discovery": "Humphry Davy (1807)",
     "First isolation": "Humphry Davy (1807)",
     "Phase": "solid",
@@ -724,7 +786,7 @@
     "CAS registry number": "7440-09-7"
   },
   {
-    "Name": "calcium",
+    "Name": "Calcium",
     "Symbol": "Ca",
     "Number": 20,
     "Pronunciation": "/ˈkælsiəm/ KAL-see-əm",
@@ -734,7 +796,12 @@
     "Block": "s",
     "Standard atomic weight": "40.078(4)",
     "Electron configuration": "[Ar] 4s2",
-    "Visual configuration": [2, 8, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      8,
+      2
+    ],
     "Discovery": "Humphry Davy (1808)",
     "First isolation": "Humphry Davy (1808)",
     "Phase": "solid",
@@ -766,7 +833,7 @@
     "CAS registry number": "7440-70-2"
   },
   {
-    "Name": "scandium",
+    "Name": "Scandium",
     "Symbol": "Sc",
     "Number": 21,
     "Pronunciation": "/ˈskændiəm/ SKAN-dee-əm",
@@ -776,7 +843,12 @@
     "Block": "d",
     "Standard atomic weight": "44.955912(6)",
     "Electron configuration": "[Ar] 3d1 4s2",
-    "Visual configuration": [2, 8, 9, 2],
+    "Visual configuration": [
+      2,
+      8,
+      9,
+      2
+    ],
     "Naming": "after Scandinavia",
     "Prediction": "Dmitri Mendeleev (1871)",
     "Discovery": "Lars Fredrik Nilson (1879)",
@@ -808,7 +880,7 @@
     "CAS registry number": "7440-20-2"
   },
   {
-    "Name": "titanium",
+    "Name": "Titanium",
     "Symbol": "Ti",
     "Number": 22,
     "Pronunciation": "/taɪˈteɪniəm/\nty-TAY-nee-əm",
@@ -818,7 +890,12 @@
     "Block": "d",
     "Standard atomic weight": "47.867(1)",
     "Electron configuration": "[Ar] 3d2 4s2",
-    "Visual configuration": [2, 8, 10, 2],
+    "Visual configuration": [
+      2,
+      8,
+      10,
+      2
+    ],
     "Discovery": "William Gregor (1791)",
     "First isolation": "Jöns Jakob Berzelius (1825)",
     "Named by": "Martin Heinrich Klaproth (1795)",
@@ -851,7 +928,7 @@
     "CAS registry number": "7440-32-6"
   },
   {
-    "Name": "vanadium",
+    "Name": "Vanadium",
     "Symbol": "V",
     "Number": 23,
     "Pronunciation": "/vəˈneɪdiəm/\nvə-NAY-dee-əm",
@@ -861,7 +938,12 @@
     "Block": "d",
     "Standard atomic weight": "50.9415(1)",
     "Electron configuration": "[Ar] 3d3 4s2",
-    "Visual configuration": [2, 8, 11, 2],
+    "Visual configuration": [
+      2,
+      8,
+      11,
+      2
+    ],
     "Discovery": "Andrés Manuel del Río (1801)",
     "First isolation": "Nils Gabriel Sefström (1830)",
     "Named by": "Nils Gabriel Sefström (1830)",
@@ -892,7 +974,7 @@
     "CAS registry number": "7440-62-2"
   },
   {
-    "Name": "chromium",
+    "Name": "Chromium",
     "Symbol": "Cr",
     "Number": 24,
     "Pronunciation": "/ˈkroʊmiəm/ KROH-mee-əm",
@@ -902,7 +984,12 @@
     "Block": "d",
     "Standard atomic weight": "51.9961(6)",
     "Electron configuration": "[Ar] 3d5 4s1",
-    "Visual configuration": [2, 8, 13, 1],
+    "Visual configuration": [
+      2,
+      8,
+      13,
+      1
+    ],
     "Discovery": "Louis Nicolas Vauquelin (1797)",
     "First isolation": "Louis Nicolas Vauquelin (1798)",
     "Phase": "solid",
@@ -934,7 +1021,7 @@
     "CAS registry number": "7440-47-3"
   },
   {
-    "Name": "manganese",
+    "Name": "Manganese",
     "Symbol": "Mn",
     "Number": 25,
     "Pronunciation": "/ˈmæŋɡəniːz/ MANG-gə-neez",
@@ -944,7 +1031,12 @@
     "Block": "d",
     "Standard atomic weight": "54.938045(5)",
     "Electron configuration": "[Ar] 4s2 3d5",
-    "Visual configuration": [2, 8, 13, 2],
+    "Visual configuration": [
+      2,
+      8,
+      13,
+      2
+    ],
     "Discovery": "Torbern Olof Bergman (1770)",
     "First isolation": "Johann Gottlieb Gahn (1774)",
     "Phase": "solid",
@@ -973,7 +1065,7 @@
     "CAS registry number": "7439-96-5"
   },
   {
-    "Name": "iron",
+    "Name": "Iron",
     "Symbol": "Fe",
     "Number": 26,
     "Pronunciation": "/ˈaɪ.ərn/",
@@ -983,7 +1075,12 @@
     "Block": "d",
     "Standard atomic weight": "55.845(2)",
     "Electron configuration": "[Ar] 3d6 4s2",
-    "Visual configuration": [2, 8, 14, 2],
+    "Visual configuration": [
+      2,
+      8,
+      14,
+      2
+    ],
     "Discovery": "before 5000 BC",
     "Phase": "solid",
     "Density (near r.t.)": "7.874 g·cm−3",
@@ -1014,7 +1111,7 @@
     "CAS registry number": "7439-89-6"
   },
   {
-    "Name": "cobalt",
+    "Name": "Cobalt",
     "Symbol": "Co",
     "Number": 27,
     "Pronunciation": "/ˈkoʊbɒlt/ KOH-bolt",
@@ -1024,7 +1121,12 @@
     "Block": "d",
     "Standard atomic weight": "58.933195(5)",
     "Electron configuration": "[Ar] 4s2 3d7",
-    "Visual configuration": [2, 8, 15, 2],
+    "Visual configuration": [
+      2,
+      8,
+      15,
+      2
+    ],
     "Discovery": "Georg Brandt (1732)",
     "Color": "metallic gray",
     "Phase": "solid",
@@ -1056,7 +1158,7 @@
     "CAS registry number": "7440-48-4"
   },
   {
-    "Name": "nickel",
+    "Name": "Nickel",
     "Symbol": "Ni",
     "Number": 28,
     "Pronunciation": "/ˈnɪkəl/ NIK-əl",
@@ -1066,7 +1168,15 @@
     "Block": "d",
     "Standard atomic weight": "58.6934(4)(2)",
     "Electron configuration": "[Ar] 4s2 3d8 or [Ar] 4s1 3d9 (see text)",
-    "Visual configuration": [2, 8, 16, "2 or 2", 8, 17, 1],
+    "Visual configuration": [
+      2,
+      8,
+      16,
+      "2 or 2",
+      8,
+      17,
+      1
+    ],
     "Discovery": "Axel Fredrik Cronstedt (1751)",
     "First isolation": "Axel Fredrik Cronstedt (1751)",
     "Phase": "solid",
@@ -1099,7 +1209,7 @@
     "CAS registry number": "7440-02-0"
   },
   {
-    "Name": "copper",
+    "Name": "Copper",
     "Symbol": "Cu",
     "Number": 29,
     "Pronunciation": "/ˈkɒpər/ KOP-ər",
@@ -1109,7 +1219,12 @@
     "Block": "d",
     "Standard atomic weight": "63.546(3)",
     "Electron configuration": "[Ar] 3d10 4s1",
-    "Visual configuration": [2, 8, 18, 1],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      1
+    ],
     "Naming": "after Cyprus, principal mining place in Roman era (Cyprium)",
     "Discovery": "Middle Easterns (9000 BC)",
     "Phase": "solid",
@@ -1142,7 +1257,7 @@
     "CAS registry number": "7440-50-8"
   },
   {
-    "Name": "zinc",
+    "Name": "Zinc",
     "Symbol": "Zn",
     "Number": 30,
     "Pronunciation": "/ˈzɪŋk/ ZINGK",
@@ -1152,7 +1267,12 @@
     "Block": "d",
     "Standard atomic weight": "65.38(2)",
     "Electron configuration": "[Ar] 3d10 4s2",
-    "Visual configuration": [2, 8, 18, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      2
+    ],
     "Discovery": "Indian metallurgists (before 1000 BC)",
     "First isolation": "Andreas Sigismund Marggraf (1746)",
     "Recognized as a unique metal by": "Rasaratna Samuccaya (800)",
@@ -1185,7 +1305,7 @@
     "CAS registry number": "7440-66-6"
   },
   {
-    "Name": "gallium",
+    "Name": "Gallium",
     "Symbol": "Ga",
     "Number": 31,
     "Pronunciation": "/ˈɡæliəm/ GAL-ee-əm",
@@ -1195,7 +1315,12 @@
     "Block": "p",
     "Standard atomic weight": "69.723(1)",
     "Electron configuration": "[Ar] 4s2 3d10 4p1",
-    "Visual configuration": [2, 8, 18, 3],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      3
+    ],
     "Naming": "after Gallia (Latin for: France), homeland of the discoverer",
     "Prediction": "Dmitri Mendeleev (1871)",
     "Discovery": "Lecoq de Boisbaudran (1875)",
@@ -1227,7 +1352,7 @@
     "CAS registry number": "7440-55-3"
   },
   {
-    "Name": "germanium",
+    "Name": "Germanium",
     "Symbol": "Ge",
     "Number": 32,
     "Pronunciation": "/dʒərˈmeɪniəm/\njər-MAY-nee-əm",
@@ -1237,7 +1362,12 @@
     "Block": "p",
     "Standard atomic weight": "72.63(1) ",
     "Electron configuration": "[Ar] 3d10 4s2 4p2",
-    "Visual configuration": [2, 8, 18, 4],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      4
+    ],
     "Naming": "after Germany, homeland of the discoverer",
     "Prediction": "Dmitri Mendeleev (1871)",
     "Discovery": "Clemens Winkler (1886)",
@@ -1270,7 +1400,7 @@
     "Band gap energy at 300 K": "0.67 eV"
   },
   {
-    "Name": "arsenic",
+    "Name": "Arsenic",
     "Symbol": "As",
     "Number": 33,
     "Pronunciation": "/ˈɑrsɨnɪk/ AR-sə-nik,\nalso /ɑrˈsɛnɪk/ ar-SEN-ik when attributive",
@@ -1280,7 +1410,12 @@
     "Block": "p",
     "Standard atomic weight": "74.92160(2)",
     "Electron configuration": "[Ar] 4s2 3d10 4p3",
-    "Visual configuration": [2, 8, 18, 5],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      5
+    ],
     "Discovery": "Early Bronze Age (2500 BC)",
     "First isolation": "Albertus Magnus (1250)",
     "Phase": "solid",
@@ -1309,7 +1444,7 @@
     "CAS registry number": "7440-38-2"
   },
   {
-    "Name": "selenium",
+    "Name": "Selenium",
     "Symbol": "Se",
     "Number": 34,
     "Pronunciation": "/sɨˈliːniəm/ si-LEE-nee-əm",
@@ -1319,7 +1454,12 @@
     "Block": "p",
     "Standard atomic weight": "78.96",
     "Electron configuration": "[Ar] 3d10 4s2 4p4",
-    "Visual configuration": [2, 8, 18, 6],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      6
+    ],
     "Naming": "after Selene, Greek goddess of the moon",
     "Discovery": "Jöns Jakob Berzelius and Johann Gottlieb Gahn (1817)",
     "First isolation": "Jöns Jakob Berzelius and Johann Gottlieb Gahn (1817)",
@@ -1352,7 +1492,7 @@
     "CAS registry number": "7782-49-2"
   },
   {
-    "Name": "bromine",
+    "Name": "Bromine",
     "Symbol": "Br",
     "Number": 35,
     "Pronunciation": "/ˈbroʊmiːn/ BROH-meen\nor /ˈbroʊmɨn/ BROH-min",
@@ -1362,7 +1502,12 @@
     "Block": "p",
     "Standard atomic weight": "79.904(1)",
     "Electron configuration": "[Ar] 4s2 3d10 4p5",
-    "Visual configuration": [2, 8, 18, 7],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      7
+    ],
     "Discovery": "Antoine Jérôme Balard and Leopold Gmelin (1825)",
     "First isolation": "Antoine Jérôme Balard and Leopold Gmelin (1825)",
     "Phase": "liquid",
@@ -1387,7 +1532,7 @@
     "CAS registry number": "7726-95-6"
   },
   {
-    "Name": "krypton",
+    "Name": "Krypton",
     "Symbol": "Kr",
     "Number": 36,
     "Pronunciation": "/ˈkrɪptɒn/ KRIP-ton",
@@ -1397,7 +1542,12 @@
     "Block": "p",
     "Standard atomic weight": "83.798",
     "Electron configuration": "[Ar] 3d10 4s2 4p6",
-    "Visual configuration": [2, 8, 18, 8],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      8
+    ],
     "Discovery": "William Ramsay and Morris Travers (1898)",
     "First isolation": "William Ramsay and Morris Travers (1898)",
     "Phase": "gas",
@@ -1422,7 +1572,7 @@
     "CAS registry number": "7439-90-9"
   },
   {
-    "Name": "rubidium",
+    "Name": "Rubidium",
     "Symbol": "Rb",
     "Number": 37,
     "Pronunciation": "/rʉˈbɪdiəm/ roo-BID-ee-əm",
@@ -1432,7 +1582,13 @@
     "Block": "s",
     "Standard atomic weight": "85.4678(3)",
     "Electron configuration": "[Kr] 5s1",
-    "Visual configuration": [2, 8, 18, 8, 1],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      8,
+      1
+    ],
     "Discovery": "Robert Bunsen and Gustav Kirchhoff (1861)",
     "First isolation": "George de Hevesy",
     "Phase": "solid",
@@ -1462,7 +1618,7 @@
     "CAS registry number": "7440-17-7"
   },
   {
-    "Name": "strontium",
+    "Name": "Strontium",
     "Symbol": "Sr",
     "Number": 38,
     "Pronunciation": "/ˈstrɒnʃⁱəm/\nSTRON-sh(ee)-əm;\n/ˈstrɒntiəm/\nSTRON-tee-əm",
@@ -1472,7 +1628,13 @@
     "Block": "s",
     "Standard atomic weight": "87.62",
     "Electron configuration": "[Kr] 5s2",
-    "Visual configuration": [2, 8, 18, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      8,
+      2
+    ],
     "Naming": "after the mineral strontianite, itself named after Strontian, Scotland",
     "Discovery": "William Cruickshank (1787)",
     "First isolation": "Humphry Davy (1808)",
@@ -1502,7 +1664,7 @@
     "CAS registry number": "7440-24-6"
   },
   {
-    "Name": "yttrium",
+    "Name": "Yttrium",
     "Symbol": "Y",
     "Number": 39,
     "Pronunciation": "/ˈɪtriəm/ IT-ree-əm",
@@ -1512,7 +1674,13 @@
     "Block": "d",
     "Standard atomic weight": "88.90585",
     "Electron configuration": "[Kr] 4d1 5s2",
-    "Visual configuration": [2, 8, 18, 9, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      9,
+      2
+    ],
     "Naming": "after Ytterby (Sweden) and its mineral ytterbite",
     "Discovery": "Johan Gadolin (1794)",
     "First isolation": "Carl Gustav Mosander (1840)",
@@ -1543,7 +1711,7 @@
     "CAS registry number": "7440-65-5"
   },
   {
-    "Name": "zirconium",
+    "Name": "Zirconium",
     "Symbol": "Zr",
     "Number": 40,
     "Pronunciation": "/zərˈkoʊniəm/ zər-KOH-ni-əm",
@@ -1553,7 +1721,13 @@
     "Block": "d",
     "Standard atomic weight": "91.224",
     "Electron configuration": "[Kr] 5s2 4d2",
-    "Visual configuration": [2, 8, 18, 10, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      10,
+      2
+    ],
     "Discovery": "Martin Heinrich Klaproth (1789)",
     "First isolation": "Jöns Jakob Berzelius (1824)",
     "Phase": "solid",
@@ -1585,7 +1759,7 @@
     "CAS registry number": "7440-67-7"
   },
   {
-    "Name": "niobium",
+    "Name": "Niobium",
     "Symbol": "Nb",
     "Number": 41,
     "Pronunciation": "/naɪˈoʊbiəm/\nny-OH-bee-əm;\n/kəˈlʌmbiəm/\nkə-LUM-bee-əm",
@@ -1595,7 +1769,13 @@
     "Block": "d",
     "Standard atomic weight": "92.90638",
     "Electron configuration": "[Kr] 4d4 5s1",
-    "Visual configuration": [2, 8, 18, 12, 1],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      12,
+      1
+    ],
     "Discovery": "Charles Hatchett (1801)",
     "First isolation": "Christian Wilhelm Blomstrand (1864)",
     "Recognized as a distinct element by": "Heinrich Rose (1844)",
@@ -1627,7 +1807,7 @@
     "CAS registry number": "7440-03-1"
   },
   {
-    "Name": "molybdenum",
+    "Name": "Molybdenum",
     "Symbol": "Mo",
     "Number": 42,
     "Pronunciation": "/ˌmɒlɪbˈdiːnəm/ MOL-ib-DEE-nəm\nor /məˈlɪbdɨnəm/ mə-LIB-di-nəm",
@@ -1637,7 +1817,13 @@
     "Block": "d",
     "Standard atomic weight": "95.96(2)",
     "Electron configuration": "[Kr] 5s1 4d5",
-    "Visual configuration": [2, 8, 18, 13, 1],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      13,
+      1
+    ],
     "Discovery": "Carl Wilhelm Scheele (1778)",
     "First isolation": "Peter Jacob Hjelm (1781)",
     "Phase": "solid",
@@ -1670,7 +1856,7 @@
     "CAS registry number": "7439-98-7"
   },
   {
-    "Name": "technetium",
+    "Name": "Technetium",
     "Symbol": "Tc",
     "Number": 43,
     "Pronunciation": "/tɛkˈniːʃiəm/\ntek-NEE-shee-əm",
@@ -1680,7 +1866,13 @@
     "Block": "d",
     "Standard atomic weight": "[98]",
     "Electron configuration": "[Kr] 4d5 5s2",
-    "Visual configuration": [2, 8, 18, 13, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      13,
+      2
+    ],
     "Prediction": "Dmitri Mendeleev (1871)",
     "Discovery": "Carlo Perrier and Emilio Segrè (1937)",
     "First isolation": "Carlo Perrier and Emilio Segrè (1937)",
@@ -1703,7 +1895,7 @@
     "CAS registry number": "7440-26-8"
   },
   {
-    "Name": "ruthenium",
+    "Name": "Ruthenium",
     "Symbol": "Ru",
     "Number": 44,
     "Pronunciation": "/ruːˈθiːniəm/\nroo-THEE-nee-əm",
@@ -1713,7 +1905,13 @@
     "Block": "d",
     "Standard atomic weight": "101.07",
     "Electron configuration": "[Kr] 4d7 5s1",
-    "Visual configuration": [2, 8, 18, 15, 1],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      15,
+      1
+    ],
     "Naming": "after Ruthenia (Latin for: medieval Russian region)",
     "Discovery": "Jędrzej Śniadecki (1807)",
     "First isolation": "Jędrzej Śniadecki (1807)",
@@ -1745,7 +1943,7 @@
     "CAS registry number": "7440-18-8"
   },
   {
-    "Name": "rhodium",
+    "Name": "Rhodium",
     "Symbol": "Rh",
     "Number": 45,
     "Pronunciation": "/ˈroʊdiəm/ ROH-dee-əm",
@@ -1755,7 +1953,13 @@
     "Block": "d",
     "Standard atomic weight": "102.90550",
     "Electron configuration": "[Kr] 5s1 4d8",
-    "Visual configuration": [2, 8, 18, 16, 1],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      16,
+      1
+    ],
     "Discovery": "William Hyde Wollaston (1804)",
     "First isolation": "William Hyde Wollaston (1804)",
     "Phase": "solid",
@@ -1787,7 +1991,7 @@
     "CAS registry number": "7440-16-6"
   },
   {
-    "Name": "palladium",
+    "Name": "Palladium",
     "Symbol": "Pd",
     "Number": 46,
     "Pronunciation": "/pəˈleɪdiəm/\npə-LAY-dee-əm",
@@ -1797,7 +2001,12 @@
     "Block": "d",
     "Standard atomic weight": "106.42",
     "Electron configuration": "[Kr] 4d10",
-    "Visual configuration": [2, 8, 18, 18],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      18
+    ],
     "Naming": "after asteroid Pallas, itself named after Pallas Athena",
     "Discovery": "William Hyde Wollaston (1803)",
     "First isolation": "William Hyde Wollaston (1803)",
@@ -1831,7 +2040,7 @@
     "CAS registry number": "7440-05-3"
   },
   {
-    "Name": "silver",
+    "Name": "Silver",
     "Symbol": "Ag",
     "Number": 47,
     "Pronunciation": "/ˈsɪlvər/",
@@ -1841,7 +2050,13 @@
     "Block": "d",
     "Standard atomic weight": "107.8682",
     "Electron configuration": "[Kr] 4d10 5s1",
-    "Visual configuration": [2, 8, 18, 18, 1],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      18,
+      1
+    ],
     "Discovery": "before 5000 BC",
     "Phase": "solid",
     "Density (near r.t.)": "10.49 g·cm−3",
@@ -1874,7 +2089,7 @@
     "CAS registry number": "7440-22-4"
   },
   {
-    "Name": "cadmium",
+    "Name": "Cadmium",
     "Symbol": "Cd",
     "Number": 48,
     "Pronunciation": "/ˈkædmiəm/ KAD-mee-əm",
@@ -1884,7 +2099,13 @@
     "Block": "d",
     "Standard atomic weight": "112.411",
     "Electron configuration": "[Kr] 5s2 4d10",
-    "Visual configuration": [2, 8, 18, 18, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      18,
+      2
+    ],
     "Discovery": "Karl Samuel Leberecht Hermann and Friedrich Stromeyer (1817)",
     "First isolation": "Karl Samuel Leberecht Hermann and Friedrich Stromeyer (1817)",
     "Named by": "Friedrich Stromeyer (1817)",
@@ -1917,7 +2138,7 @@
     "CAS registry number": "7440-43-9"
   },
   {
-    "Name": "indium",
+    "Name": "Indium",
     "Symbol": "In",
     "Number": 49,
     "Pronunciation": "/ˈɪndiəm/ IN-dee-əm",
@@ -1927,7 +2148,13 @@
     "Block": "p",
     "Standard atomic weight": "114.818",
     "Electron configuration": "[Kr] 4d10 5s2 5p1",
-    "Visual configuration": [2, 8, 18, 18, 3],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      18,
+      3
+    ],
     "Discovery": "Ferdinand Reich and Hieronymous Theodor Richter (1863)",
     "First isolation": "Hieronymous Theodor Richter (1867)",
     "Phase": "solid",
@@ -1956,7 +2183,7 @@
     "CAS registry number": "7440-74-6"
   },
   {
-    "Name": "tin",
+    "Name": "Tin",
     "Symbol": "Sn",
     "Number": 50,
     "Pronunciation": "/ˈtɪn/",
@@ -1966,7 +2193,13 @@
     "Block": "p",
     "Standard atomic weight": "118.710",
     "Electron configuration": "[Kr] 4d10 5s2 5p2",
-    "Visual configuration": [2, 8, 18, 18, 4],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      18,
+      4
+    ],
     "Discovery": "around 3500 BC",
     "Phase": "solid",
     "Density (near r.t.)": "(white) 7.365 g·cm−3, Density (near r.t.)",
@@ -1997,7 +2230,7 @@
     "CAS registry number": "7440-31-5"
   },
   {
-    "Name": "antimony",
+    "Name": "Antimony",
     "Symbol": "Sb",
     "Number": 51,
     "Pronunciation": "UK /ˈæntɨməni/ AN-ti-mə-nee;\nUS /ˈæntɨmoʊni/ AN-ti-moh-nee",
@@ -2007,7 +2240,13 @@
     "Block": "p",
     "Standard atomic weight": "121.760(1)",
     "Electron configuration": "[Kr] 4d10 5s2 5p3",
-    "Visual configuration": [2, 8, 18, 18, 5],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      18,
+      5
+    ],
     "Discovery": "3000 BC",
     "First isolation": "Vannoccio Biringuccio (1540)",
     "Phase": "solid",
@@ -2038,7 +2277,7 @@
     "CAS registry number": "7440-36-0"
   },
   {
-    "Name": "tellurium",
+    "Name": "Tellurium",
     "Symbol": "Te",
     "Number": 52,
     "Pronunciation": "/tɨˈlʲʊəriəm/\nte-LEWR-ee-əm",
@@ -2048,7 +2287,13 @@
     "Block": "p",
     "Standard atomic weight": "127.60",
     "Electron configuration": "[Kr] 4d10 5s2 5p4",
-    "Visual configuration": [2, 8, 18, 18, 6],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      18,
+      6
+    ],
     "Naming": "after Roman Tellus, deity of the Earth",
     "Discovery": "Franz-Joseph Müller von Reichenstein (1782)",
     "First isolation": "Martin Heinrich Klaproth",
@@ -2078,7 +2323,7 @@
     "CAS registry number": "13494-80-9"
   },
   {
-    "Name": "iodine",
+    "Name": "Iodine",
     "Symbol": "I",
     "Number": 53,
     "Pronunciation": "/ˈaɪ.ədaɪn/ EYE-ə-dyn,\n/ˈaɪ.ədɨn/ EYE-ə-dən,\nor /ˈaɪ.ədiːn/ EYE-ə-deen",
@@ -2088,7 +2333,13 @@
     "Block": "p",
     "Standard atomic weight": "126.90447",
     "Electron configuration": "[Kr] 4d10 5s2 5p5",
-    "Visual configuration": [2, 8, 18, 18, 7],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      18,
+      7
+    ],
     "Discovery": "Bernard Courtois (1811)",
     "First isolation": "Bernard Courtois (1811)",
     "Phase": "solid",
@@ -2114,7 +2365,7 @@
     "CAS registry number": "7553-56-2"
   },
   {
-    "Name": "xenon",
+    "Name": "Xenon",
     "Symbol": "Xe",
     "Number": 54,
     "Pronunciation": "/ˈzɛnɒn/ ZEN-on\nor /ˈziːnɒn/ ZEE-non",
@@ -2124,7 +2375,13 @@
     "Block": "p",
     "Standard atomic weight": "131.293(6)",
     "Electron configuration": "[Kr] 5s2 4d10 5p6",
-    "Visual configuration": [2, 8, 18, 18, 8],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      18,
+      8
+    ],
     "Discovery": "William Ramsay and Morris Travers (1898)",
     "First isolation": "William Ramsay and Morris Travers (1898)",
     "Phase": "gas",
@@ -2149,7 +2406,7 @@
     "CAS registry number": "7440-63-3"
   },
   {
-    "Name": "caesium",
+    "Name": "Caesium",
     "Symbol": "Cs",
     "Number": 55,
     "Pronunciation": "/ˈsiːziəm/ SEE-zee-əm",
@@ -2159,7 +2416,14 @@
     "Block": "s",
     "Standard atomic weight": "132.9054519(2)",
     "Electron configuration": "[Xe] 6s1",
-    "Visual configuration": [2, 8, 18, 18, 8, 1],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      1
+    ],
     "Discovery": "Robert Bunsen and Gustav Kirchhoff (1860)",
     "First isolation": "Carl Setterberg (1882)",
     "Phase": "solid",
@@ -2189,7 +2453,7 @@
     "CAS registry number": "7440-46-2"
   },
   {
-    "Name": "barium",
+    "Name": "Barium",
     "Symbol": "Ba",
     "Number": 56,
     "Pronunciation": "/ˈbɛəriəm/ BAIR-ee-əm",
@@ -2199,7 +2463,14 @@
     "Block": "s",
     "Standard atomic weight": "137.327",
     "Electron configuration": "[Xe] 6s2",
-    "Visual configuration": [2, 8, 18, 18, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      2
+    ],
     "Discovery": "Carl Wilhelm Scheele (1772)",
     "First isolation": "Humphry Davy (1808)",
     "Phase": "solid",
@@ -2229,7 +2500,7 @@
     "CAS registry number": "7440-39-3"
   },
   {
-    "Name": "lanthanum",
+    "Name": "Lanthanum",
     "Symbol": "La",
     "Number": 57,
     "Pronunciation": "/ˈlænθənəm/",
@@ -2239,7 +2510,14 @@
     "Block": "f",
     "Standard atomic weight": "138.90547",
     "Electron configuration": "[Xe] 5d1 6s2",
-    "Visual configuration": [2, 8, 18, 18, 9, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      18,
+      9,
+      2
+    ],
     "Discovery": "Carl Gustaf Mosander (1838)",
     "Phase": "solid",
     "Density (near r.t.)": "6.162 g·cm−3",
@@ -2270,7 +2548,7 @@
     "CAS registry number": "7439-91-0"
   },
   {
-    "Name": "cerium",
+    "Name": "Cerium",
     "Symbol": "Ce",
     "Number": 58,
     "Pronunciation": "/ˈsɪəriəm/",
@@ -2280,7 +2558,14 @@
     "Block": "f",
     "Standard atomic weight": "140.116",
     "Electron configuration": "[Xe] 4f1 5d1 6s2",
-    "Visual configuration": [2, 8, 18, 19, 9, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      19,
+      9,
+      2
+    ],
     "Naming": "after dwarf planet Ceres, itself named after Roman deity of agriculture Ceres",
     "Discovery": "Martin Heinrich Klaproth, Jöns Jakob Berzelius, Wilhelm Hisinger (1803)",
     "First isolation": "Carl Gustaf Mosander (1839)",
@@ -2313,7 +2598,7 @@
     "CAS registry number": "7440-45-1"
   },
   {
-    "Name": "praseodymium",
+    "Name": "Praseodymium",
     "Symbol": "Pr",
     "Number": 59,
     "Pronunciation": "/preɪziːəˈdɪmiəm/\npray-zee-ə-DIM-ee-əm",
@@ -2323,7 +2608,14 @@
     "Block": "f",
     "Standard atomic weight": "140.90765",
     "Electron configuration": "[Xe] 4f3 6s2",
-    "Visual configuration": [2, 8, 18, 21, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      21,
+      8,
+      2
+    ],
     "Discovery": "Carl Auer von Welsbach (1885)",
     "Phase": "solid",
     "Density (near r.t.)": "6.77 g·cm−3",
@@ -2353,7 +2645,7 @@
     "CAS registry number": "7440-10-0"
   },
   {
-    "Name": "neodymium",
+    "Name": "Neodymium",
     "Symbol": "Nd",
     "Number": 60,
     "Pronunciation": "/ˌniː.ɵˈdɪmiəm/\nNEE-o-DIM-ee-əm",
@@ -2363,7 +2655,14 @@
     "Block": "f",
     "Standard atomic weight": "144.242",
     "Electron configuration": "[Xe] 4f4 6s2",
-    "Visual configuration": [2, 8, 18, 22, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      22,
+      8,
+      2
+    ],
     "Discovery": "Carl Auer von Welsbach (1885)",
     "Phase": "solid",
     "Density (near r.t.)": "7.01 g·cm−3",
@@ -2393,7 +2692,7 @@
     "CAS registry number": "7440-00-8"
   },
   {
-    "Name": "promethium",
+    "Name": "Promethium",
     "Symbol": "Pm",
     "Number": 61,
     "Pronunciation": "/prɵˈmiːθiəm/\npro-MEE-thee-əm",
@@ -2403,7 +2702,14 @@
     "Block": "f",
     "Standard atomic weight": "[145]",
     "Electron configuration": "[Xe] 6s2 4f5",
-    "Visual configuration": [2, 8, 18, 23, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      23,
+      8,
+      2
+    ],
     "Discovery": "Chien Shiung Wu, Emilio Segrè, Hans Bethe (1942)",
     "First isolation": "Charles D. Coryell, Jacob A. Marinsky, Lawrence E. Glendenin, Harold G. Richter (1945)",
     "Named by": "Grace Mary Coryell (1945)",
@@ -2430,7 +2736,7 @@
     "CAS registry number": "7440-12-2"
   },
   {
-    "Name": "samarium",
+    "Name": "Samarium",
     "Symbol": "Sm",
     "Number": 62,
     "Pronunciation": "/səˈmɛəriəm/ sə-MAIR-ee-əm",
@@ -2440,7 +2746,14 @@
     "Block": "f",
     "Standard atomic weight": "150.36",
     "Electron configuration": "[Xe] 6s2 4f6",
-    "Visual configuration": [2, 8, 18, 24, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      24,
+      8,
+      2
+    ],
     "Naming": "after the mineral samarskite (itself named after Vasili Samarsky-Bykhovets)",
     "Discovery": "Lecoq de Boisbaudran (1879)",
     "First isolation": "Lecoq de Boisbaudran (1879)",
@@ -2472,7 +2785,7 @@
     "CAS registry number": "7440-19-9"
   },
   {
-    "Name": "europium",
+    "Name": "Europium",
     "Symbol": "Eu",
     "Number": 63,
     "Pronunciation": "/jʊˈroʊpiəm/\new-ROH-pee-əm",
@@ -2482,7 +2795,14 @@
     "Block": "f",
     "Standard atomic weight": "151.964",
     "Electron configuration": "[Xe] 4f7 6s2",
-    "Visual configuration": [2, 8, 18, 25, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      25,
+      8,
+      2
+    ],
     "Naming": "after Europe",
     "Discovery": "Eugène-Anatole Demarçay (1896)",
     "First isolation": "Eugène-Anatole Demarçay (1901)",
@@ -2512,7 +2832,7 @@
     "CAS registry number": "7440-53-1"
   },
   {
-    "Name": "gadolinium",
+    "Name": "Gadolinium",
     "Symbol": "Gd",
     "Number": 64,
     "Pronunciation": "/ˌɡædəˈlɪniəm/\nGAD-ə-LIN-ee-əm",
@@ -2522,7 +2842,14 @@
     "Block": "f",
     "Standard atomic weight": "157.25",
     "Electron configuration": "[Xe] 4f7 5d1 6s2",
-    "Visual configuration": [2, 8, 18, 25, 9, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      25,
+      9,
+      2
+    ],
     "Naming": "after the mineral Gadolinite (itself named after Johan Gadolin)",
     "Discovery": "Jean Charles Galissard de Marignac (1880)",
     "First isolation": "Lecoq de Boisbaudran (1886)",
@@ -2553,7 +2880,7 @@
     "CAS registry number": "7440-54-2"
   },
   {
-    "Name": "terbium",
+    "Name": "Terbium",
     "Symbol": "Tb",
     "Number": 65,
     "Pronunciation": "/ˈtɜrbiəm/ TUR-bee-əm",
@@ -2563,7 +2890,14 @@
     "Block": "f",
     "Standard atomic weight": "158.92535",
     "Electron configuration": "[Xe] 4f9 6s2",
-    "Visual configuration": [2, 8, 18, 27, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      27,
+      8,
+      2
+    ],
     "Naming": "after Ytterby (Sweden), where it was mined",
     "Discovery": "Carl Gustaf Mosander (1842)",
     "First isolation": "Carl Gustaf Mosander (1842)",
@@ -2595,7 +2929,7 @@
     "CAS registry number": "7440-27-9"
   },
   {
-    "Name": "dysprosium",
+    "Name": "Dysprosium",
     "Symbol": "Dy",
     "Number": 66,
     "Pronunciation": "/dɪsˈproʊziəm/\ndis-PROH-zee-əm",
@@ -2605,7 +2939,14 @@
     "Block": "f",
     "Standard atomic weight": "162.500",
     "Electron configuration": "[Xe] 4f10 6s2",
-    "Visual configuration": [2, 8, 18, 28, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      28,
+      8,
+      2
+    ],
     "Discovery": "Lecoq de Boisbaudran (1886)",
     "Phase": "solid",
     "Density (near r.t.)": "8.540 g·cm−3",
@@ -2635,7 +2976,7 @@
     "CAS registry number": "7429-91-6"
   },
   {
-    "Name": "holmium",
+    "Name": "Holmium",
     "Symbol": "Ho",
     "Number": 67,
     "Pronunciation": "/ˈhoʊlmiəm/ HOHL-mee-əm",
@@ -2645,7 +2986,14 @@
     "Block": "f",
     "Standard atomic weight": "164.93032",
     "Electron configuration": "[Xe] 4f11 6s2",
-    "Visual configuration": [2, 8, 18, 29, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      29,
+      8,
+      2
+    ],
     "Discovery": "Marc Delafontaine (1878)",
     "Phase": "solid",
     "Density (near r.t.)": "8.79 g·cm−3",
@@ -2675,7 +3023,7 @@
     "CAS registry number": "7440-60-0"
   },
   {
-    "Name": "erbium",
+    "Name": "Erbium",
     "Symbol": "Er",
     "Number": 68,
     "Pronunciation": "/ˈɜrbiəm/ UR-bee-əm",
@@ -2685,7 +3033,14 @@
     "Block": "f",
     "Standard atomic weight": "167.259",
     "Electron configuration": "[Xe] 4f12 6s2",
-    "Visual configuration": [2, 8, 18, 30, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      30,
+      8,
+      2
+    ],
     "Naming": "after Ytterby (Sweden), where it was mined",
     "Discovery": "Carl Gustaf Mosander (1842)",
     "Phase": "solid",
@@ -2716,7 +3071,7 @@
     "CAS registry number": "7440-52-0"
   },
   {
-    "Name": "thulium",
+    "Name": "Thulium",
     "Symbol": "Tm",
     "Number": 69,
     "Pronunciation": "/ˈθjuːliəm/ THEW-lee-əm",
@@ -2726,7 +3081,14 @@
     "Block": "f",
     "Standard atomic weight": "168.93421",
     "Electron configuration": "[Xe] 4f13 6s2",
-    "Visual configuration": [2, 8, 18, 31, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      31,
+      8,
+      2
+    ],
     "Naming": "after Thule, a mythical region in Scandinavia",
     "Discovery": "Per Teodor Cleve (1879)",
     "First isolation": "Per Teodor Cleve (1879)",
@@ -2757,7 +3119,7 @@
     "CAS registry number": "7440-30-4"
   },
   {
-    "Name": "ytterbium",
+    "Name": "Ytterbium",
     "Symbol": "Yb",
     "Number": 70,
     "Pronunciation": "/ɨˈtɜrbiəm/ i-TUR-bee-əm",
@@ -2767,7 +3129,14 @@
     "Block": "f",
     "Standard atomic weight": "173.054(5)",
     "Electron configuration": "[Xe] 4f14 6s2",
-    "Visual configuration": [2, 8, 18, 32, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      8,
+      2
+    ],
     "Naming": "after Ytterby (Sweden), where it was mined",
     "Discovery": "Jean Charles Galissard de Marignac (1878)",
     "First isolation": "Georges Urbain (1907)",
@@ -2799,7 +3168,7 @@
     "CAS registry number": "7440-64-4"
   },
   {
-    "Name": "lutetium",
+    "Name": "Lutetium",
     "Symbol": "Lu",
     "Number": 71,
     "Pronunciation": "/ljuːˈtiːʃiəm/\nlew-TEE-shee-əm",
@@ -2809,7 +3178,14 @@
     "Block": "d",
     "Standard atomic weight": "174.9668(4)",
     "Electron configuration": "[Xe] 6s2 4f14 5d1",
-    "Visual configuration": [2, 8, 18, 32, 9, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      9,
+      2
+    ],
     "Naming": "after Lutetia, Latin for: Paris, in the Roman era",
     "Discovery": "Georges Urbain and Carl Auer von Welsbach (1906)",
     "First isolation": "Carl Auer von Welsbach (1906)",
@@ -2840,7 +3216,7 @@
     "CAS registry number": "7439-94-3"
   },
   {
-    "Name": "hafnium",
+    "Name": "Hafnium",
     "Symbol": "Hf",
     "Number": 72,
     "Pronunciation": "/ˈhæfniəm/\nHAF-nee-əm",
@@ -2850,7 +3226,14 @@
     "Block": "d",
     "Standard atomic weight": "178.49",
     "Electron configuration": "[Xe] 4f14 5d2 6s2",
-    "Visual configuration": [2, 8, 18, 32, 10, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      10,
+      2
+    ],
     "Naming": "after Hafnia. Latin for: Copenhagen, where it was discovered",
     "Prediction": "Dmitri Mendeleev (1869)",
     "Discovery": "Dirk Coster and George de Hevesy (1922)",
@@ -2884,7 +3267,7 @@
     "CAS registry number": "7440-58-6"
   },
   {
-    "Name": "tantalum",
+    "Name": "Tantalum",
     "Symbol": "Ta",
     "Number": 73,
     "Pronunciation": "/ˈtæntələm/\nTAN-təl-əm;\npreviously /tænˈtæliəm/\ntan-TAL-ee-əm",
@@ -2894,7 +3277,14 @@
     "Block": "d",
     "Standard atomic weight": "180.94788",
     "Electron configuration": "[Xe] 4f14 5d3 6s2",
-    "Visual configuration": [2, 8, 18, 32, 11, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      11,
+      2
+    ],
     "Discovery": "Anders Gustaf Ekeberg (1802)",
     "Recognized as a distinct element by": "Heinrich Rose (1844)",
     "Phase": "solid",
@@ -2926,7 +3316,7 @@
     "CAS registry number": "7440-25-7"
   },
   {
-    "Name": "tungsten",
+    "Name": "Tungsten",
     "Symbol": "W",
     "Number": 74,
     "Pronunciation": "/ˈtʌŋstən/ TUNG-stən;\n/ˈwʊlfrəm/ WUUL-frəm",
@@ -2936,7 +3326,14 @@
     "Block": "d",
     "Standard atomic weight": "183.84",
     "Electron configuration": "[Xe] 4f14 5d4 6s2",
-    "Visual configuration": [2, 8, 18, 32, 12, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      12,
+      2
+    ],
     "Discovery": "Torbern Bergman (1781)",
     "First isolation": "Juan José Elhuyar and Fausto Elhuyar (1783)",
     "Phase": "solid",
@@ -2969,7 +3366,7 @@
     "CAS registry number": "7440-33-7"
   },
   {
-    "Name": "rhenium",
+    "Name": "Rhenium",
     "Symbol": "Re",
     "Number": 75,
     "Pronunciation": "/ˈriːniəm/ REE-nee-əm",
@@ -2979,7 +3376,14 @@
     "Block": "d",
     "Standard atomic weight": "186.207",
     "Electron configuration": "[Xe] 4f14 5d5 6s2",
-    "Visual configuration": [2, 8, 18, 32, 13, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      13,
+      2
+    ],
     "Naming": "after the river Rhine (German: Rhein)",
     "Discovery": "Masataka Ogawa (1908)",
     "First isolation": "Masataka Ogawa (1908)",
@@ -3013,7 +3417,7 @@
     "CAS registry number": "7440-15-5"
   },
   {
-    "Name": "osmium",
+    "Name": "Osmium",
     "Symbol": "Os",
     "Number": 76,
     "Pronunciation": "/ˈɒzmiəm/ OZ-mee-əm",
@@ -3023,7 +3427,14 @@
     "Block": "d",
     "Standard atomic weight": "190.23",
     "Electron configuration": "[Xe] 4f14 5d6 6s2",
-    "Visual configuration": [2, 8, 18, 32, 14, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      14,
+      2
+    ],
     "Discovery": "Smithson Tennant (1803)",
     "First isolation": "Smithson Tennant (1803)",
     "Phase": "solid",
@@ -3053,7 +3464,7 @@
     "CAS registry number": "7440-04-2"
   },
   {
-    "Name": "iridium",
+    "Name": "Iridium",
     "Symbol": "Ir",
     "Number": 77,
     "Pronunciation": "/ɨˈrɪdiəm/\ni-RID-ee-əm",
@@ -3063,7 +3474,14 @@
     "Block": "d",
     "Standard atomic weight": "192.217",
     "Electron configuration": "[Xe] 4f14 5d7 6s2",
-    "Visual configuration": [2, 8, 18, 32, 15, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      15,
+      2
+    ],
     "Discovery": "Smithson Tennant (1803)",
     "First isolation": "Smithson Tennant (1803)",
     "Phase": "solid",
@@ -3095,7 +3513,7 @@
     "CAS registry number": "7439-88-5"
   },
   {
-    "Name": "platinum",
+    "Name": "Platinum",
     "Symbol": "Pt",
     "Number": 78,
     "Pronunciation": "/ˈplætɨnəm/",
@@ -3105,7 +3523,14 @@
     "Block": "d",
     "Standard atomic weight": "195.084",
     "Electron configuration": "[Xe] 4f14 5d9 6s1",
-    "Visual configuration": [2, 8, 18, 32, 17, 1],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      17,
+      1
+    ],
     "Discovery": "Antonio de Ulloa (1735)",
     "First isolation": "Antonio de Ulloa (1735)",
     "Phase": "solid",
@@ -3139,7 +3564,7 @@
     "CAS registry number": "7440-06-4"
   },
   {
-    "Name": "gold",
+    "Name": "Gold",
     "Symbol": "Au",
     "Number": 79,
     "Pronunciation": "/ˈɡoʊld/",
@@ -3149,7 +3574,14 @@
     "Block": "d",
     "Standard atomic weight": "196.966569(4)",
     "Electron configuration": "[Xe] 4f14 5d10 6s1",
-    "Visual configuration": [2, 8, 18, 32, 18, 1],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      1
+    ],
     "Naming": "aurum in Latin, meaning glow of sunrise",
     "Discovery": "Middle Easterns (before 6000 BC)",
     "Phase": "solid",
@@ -3183,7 +3615,7 @@
     "CAS registry number": "7440-57-5"
   },
   {
-    "Name": "mercury",
+    "Name": "Mercury",
     "Symbol": "Hg",
     "Number": 80,
     "Pronunciation": "/ˈmɜrkjəri/ MER-kyə-ree;\n/ˈkwɪksɪlvər/;\n/haɪˈdrɑrdʒɨrəm/ hy-DRAR-ji-rəm",
@@ -3193,7 +3625,14 @@
     "Block": "d",
     "Standard atomic weight": "200.59(2)",
     "Electron configuration": "[Xe] 4f14 5d10 6s2",
-    "Visual configuration": [2, 8, 18, 32, 18, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      2
+    ],
     "Discovery": "Ancient Chinese and Indians (before 2000 BC)",
     "Phase": "liquid",
     "Density (near r.t.)": "13.534 g·cm−3",
@@ -3219,7 +3658,7 @@
     "CAS registry number": "7439-97-6"
   },
   {
-    "Name": "thallium",
+    "Name": "Thallium",
     "Symbol": "Tl",
     "Number": 81,
     "Pronunciation": "/ˈθæliəm/\nTHAL-ee-əm",
@@ -3229,7 +3668,14 @@
     "Block": "p",
     "Standard atomic weight": "204.38(1)",
     "Electron configuration": "[Xe] 4f14 5d10 6s2 6p1",
-    "Visual configuration": [2, 8, 18, 32, 18, 3],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      3
+    ],
     "Discovery": "William Crookes (1861)",
     "First isolation": "Claude-Auguste Lamy (1862)",
     "Phase": "solid",
@@ -3261,7 +3707,7 @@
     "CAS registry number": "7440-28-0"
   },
   {
-    "Name": "lead",
+    "Name": "Lead",
     "Symbol": "Pb",
     "Number": 82,
     "Pronunciation": "/ˈlɛd/ LED",
@@ -3271,7 +3717,14 @@
     "Block": "p",
     "Standard atomic weight": "207.2",
     "Electron configuration": "[Xe] 4f14 5d10 6s2 6p2",
-    "Visual configuration": [2, 8, 18, 32, 18, 4],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      4
+    ],
     "Discovery": "Middle Easterns (7000 BC)",
     "Phase": "solid",
     "Density (near r.t.)": "11.34 g·cm−3",
@@ -3302,7 +3755,7 @@
     "CAS registry number": "7439-92-1"
   },
   {
-    "Name": "bismuth",
+    "Name": "Bismuth",
     "Symbol": "Bi",
     "Number": 83,
     "Pronunciation": "/ˈbɪzməθ/ BIZ-məth",
@@ -3312,7 +3765,14 @@
     "Block": "p",
     "Standard atomic weight": "208.98040(1)",
     "Electron configuration": "[Xe] 4f14 5d10 6s2 6p3",
-    "Visual configuration": [2, 8, 18, 32, 18, 5],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      5
+    ],
     "Discovery": "Claude François Geoffroy (1753)",
     "Phase": "solid",
     "Density (near r.t.)": "9.78 g·cm−3",
@@ -3343,7 +3803,7 @@
     "CAS registry number": "7440-69-9"
   },
   {
-    "Name": "polonium",
+    "Name": "Polonium",
     "Symbol": "Po",
     "Number": 84,
     "Pronunciation": "/pɵˈloʊniəm/ po-LOH-nee-əm",
@@ -3353,7 +3813,14 @@
     "Block": "p",
     "Standard atomic weight": "(209)",
     "Electron configuration": "[Xe] 6s2 4f14 5d10 6p4",
-    "Visual configuration": [2, 8, 18, 32, 18, 6],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      6
+    ],
     "Naming": "after Polonia, Latin for Poland. Homeland of one of the discoverers",
     "Discovery": "Pierre Curie and Marie Curie (1898)",
     "First isolation": "Willy Marckwald (1902)",
@@ -3378,7 +3845,7 @@
     "CAS registry number": "7440-08-6"
   },
   {
-    "Name": "astatine",
+    "Name": "Astatine",
     "Symbol": "At",
     "Number": 85,
     "Pronunciation": "/ˈæstətiːn/ AS-tə-teen\nor /ˈæstətɪn/ AS-tə-tin",
@@ -3388,7 +3855,14 @@
     "Block": "p",
     "Standard atomic weight": "(210)",
     "Electron configuration": "[Xe] 4f14 5d10 6s2 6p5",
-    "Visual configuration": [2, 8, 18, 32, 18, 7],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      7
+    ],
     "Discovery": "Dale R. Corson, Kenneth Ross MacKenzie, Emilio Segrè (1940)",
     "Phase": "solid",
     "Density (near r.t.)": "(predicted) 6.2–6.5 g·cm−3",
@@ -3405,7 +3879,7 @@
     "CAS registry number": "7440-68-8"
   },
   {
-    "Name": "radon",
+    "Name": "Radon",
     "Symbol": "Rn",
     "Number": 86,
     "Pronunciation": "/ˈreɪdɒn/ RAY-don",
@@ -3415,7 +3889,14 @@
     "Block": "p",
     "Standard atomic weight": "(222)",
     "Electron configuration": "[Xe] 4f14 5d10 6s2 6p6",
-    "Visual configuration": [2, 8, 18, 32, 18, 8],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8
+    ],
     "Discovery": "Friedrich Ernst Dorn (1898)",
     "First isolation": "William Ramsay and Robert Whytlaw-Gray (1910)",
     "Phase": "gas",
@@ -3438,7 +3919,7 @@
     "CAS registry number": "10043-92-2"
   },
   {
-    "Name": "francium",
+    "Name": "Francium",
     "Symbol": "Fr",
     "Number": 87,
     "Pronunciation": "/ˈfrænsiəm/\nFRAN-see-əm",
@@ -3448,7 +3929,15 @@
     "Block": "s",
     "Standard atomic weight": "(223)",
     "Electron configuration": "[Rn] 7s1",
-    "Visual configuration": [2, 8, 18, 32, 18, 8, 1],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      1
+    ],
     "Naming": "after France, homeland of the discoverer",
     "Discovery": "Marguerite Perey (1939)",
     "First isolation": "Marguerite Perey (1939)",
@@ -3470,7 +3959,7 @@
     "CAS registry number": "7440-73-5"
   },
   {
-    "Name": "radium",
+    "Name": "Radium",
     "Symbol": "Ra",
     "Number": 88,
     "Pronunciation": "/ˈreɪdiəm/\nRAY-dee-əm",
@@ -3480,7 +3969,15 @@
     "Block": "s",
     "Standard atomic weight": "(226)",
     "Electron configuration": "[Rn] 7s2",
-    "Visual configuration": [2, 8, 18, 32, 18, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
     "Discovery": "Pierre Curie and Marie Curie (1898)",
     "First isolation": "Marie Curie (1902)",
     "Phase": "solid",
@@ -3501,7 +3998,7 @@
     "CAS registry number": "7440-14-4"
   },
   {
-    "Name": "actinium",
+    "Name": "Actinium",
     "Symbol": "Ac",
     "Number": 89,
     "Pronunciation": "/ækˈtɪniəm/\nak-TIN-nee-əm",
@@ -3511,7 +4008,15 @@
     "Block": "f",
     "Standard atomic weight": "(227)",
     "Electron configuration": "[Rn] 6d1 7s2",
-    "Visual configuration": [2, 8, 18, 32, 18, 9, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      9,
+      2
+    ],
     "Discovery": "André-Louis Debierne (1899)",
     "First isolation": "André-Louis Debierne (1899)",
     "Phase": "solid",
@@ -3531,7 +4036,7 @@
     "CAS registry number": "7440-34-8"
   },
   {
-    "Name": "thorium",
+    "Name": "Thorium",
     "Symbol": "Th",
     "Number": 90,
     "Pronunciation": "/ˈθɔəriəm/\nTHOHR-ee-əm",
@@ -3541,7 +4046,15 @@
     "Block": "f",
     "Standard atomic weight": "232.03806",
     "Electron configuration": "[Rn] 6d2 7s2",
-    "Visual configuration": [2, 8, 18, 32, 18, 10, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      10,
+      2
+    ],
     "Discovery": "Jöns Jakob Berzelius (1829)",
     "Phase": "solid",
     "Density (near r.t.)": "11.7 g·cm−3",
@@ -3571,7 +4084,7 @@
     "CAS registry number": "7440-29-1"
   },
   {
-    "Name": "protactinium",
+    "Name": "Protactinium",
     "Symbol": "Pa",
     "Number": 91,
     "Pronunciation": "/ˌproʊtækˈtɪniəm/\nPROH-tak-TIN-ee-əm",
@@ -3581,7 +4094,15 @@
     "Block": "f",
     "Standard atomic weight": "231.03588",
     "Electron configuration": "[Rn] 5f2 6d1 7s2",
-    "Visual configuration": [2, 8, 18, 32, 20, 9, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      20,
+      9,
+      2
+    ],
     "Prediction": "Dmitri Mendeleev (1869)",
     "Discovery": "William Crookes (1900)",
     "First isolation": "William Crookes (1900)",
@@ -3604,7 +4125,7 @@
     "CAS registry number": "7440-13-3"
   },
   {
-    "Name": "uranium",
+    "Name": "Uranium",
     "Symbol": "U",
     "Number": 92,
     "Pronunciation": "/jʊˈreɪniəm/\new-RAY-nee-əm",
@@ -3614,7 +4135,15 @@
     "Block": "f",
     "Standard atomic weight": "238.02891(3)",
     "Electron configuration": "[Rn] 5f3 6d1 7s2",
-    "Visual configuration": [2, 8, 18, 32, 21, 9, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      21,
+      9,
+      2
+    ],
     "Naming": "after planet Uranus, itself named after Greek god of the sky Uranus",
     "Discovery": "Martin Heinrich Klaproth (1789)",
     "First isolation": "Eugène-Melchior Péligot (1841)",
@@ -3645,7 +4174,7 @@
     "CAS registry number": "7440-61-1"
   },
   {
-    "Name": "neptunium",
+    "Name": "Neptunium",
     "Symbol": "Np",
     "Number": 93,
     "Pronunciation": "/nɛpˈtjuːniəm/\nnep-TEW-nee-əm",
@@ -3655,7 +4184,15 @@
     "Block": "f",
     "Standard atomic weight": "(237)",
     "Electron configuration": "[Rn] 5f4 6d1 7s2",
-    "Visual configuration": [2, 8, 18, 32, 22, 9, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      22,
+      9,
+      2
+    ],
     "Naming": "after planet Neptune, itself named after Roman god of the sea Neptune",
     "Discovery": "Edwin McMillan and Philip H. Abelson (1940)",
     "Phase": "solid",
@@ -3677,7 +4214,7 @@
     "CAS registry number": "7439-99-8"
   },
   {
-    "Name": "plutonium",
+    "Name": "Plutonium",
     "Symbol": "Pu",
     "Number": 94,
     "Pronunciation": "/pluːˈtoʊniəm/\nploo-TOH-nee-əm",
@@ -3687,7 +4224,15 @@
     "Block": "f",
     "Standard atomic weight": "(244)",
     "Electron configuration": "[Rn] 5f6 7s2",
-    "Visual configuration": [2, 8, 18, 32, 24, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      24,
+      8,
+      2
+    ],
     "Naming": "after minor planet Pluto, itself a newly coined name",
     "Discovery": "Glenn T. Seaborg, Arthur Wahl, Joseph W. Kennedy, Edwin McMillan (1940–1)",
     "Phase": "solid",
@@ -3715,7 +4260,7 @@
     "CAS registry number": "7440-07-5"
   },
   {
-    "Name": "americium",
+    "Name": "Americium",
     "Symbol": "Am",
     "Number": 95,
     "Pronunciation": "/ˌæməˈrɪsiəm/\nAM-ə-RIS-ee-əm",
@@ -3725,7 +4270,15 @@
     "Block": "f",
     "Standard atomic weight": "(243)",
     "Electron configuration": "[Rn] 5f7 7s2",
-    "Visual configuration": [2, 8, 18, 32, 25, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      8,
+      2
+    ],
     "Naming": "after the Americas",
     "Discovery": "Glenn T. Seaborg, Ralph A. James, Leon O. Morgan, Albert Ghiorso (1944)",
     "Phase": "solid",
@@ -3746,7 +4299,7 @@
     "CAS registry number": "7440-35-9"
   },
   {
-    "Name": "curium",
+    "Name": "Curium",
     "Symbol": "Cm",
     "Number": 96,
     "Pronunciation": "/ˈkjʊəriəm/\nKEWR-ee-əm",
@@ -3756,7 +4309,15 @@
     "Block": "f",
     "Standard atomic weight": "(247)",
     "Electron configuration": "[Rn] 5f7 6d1 7s2",
-    "Visual configuration": [2, 8, 18, 32, 25, 9, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      9,
+      2
+    ],
     "Naming": "named after Marie Skłodowska-Curie and Pierre Curie",
     "Discovery": "Glenn T. Seaborg, Ralph A. James, Albert Ghiorso (1944)",
     "Phase": "solid",
@@ -3775,7 +4336,7 @@
     "CAS registry number": "7440-51-9"
   },
   {
-    "Name": "berkelium",
+    "Name": "Berkelium",
     "Symbol": "Bk",
     "Number": 97,
     "Pronunciation": "/bərˈkiːli.əm/\nbər-KEE-lee-əm\nless commonly:\n/ˈbɜrkli.əm/\nBERK-lee-əm",
@@ -3785,7 +4346,15 @@
     "Block": "f",
     "Standard atomic weight": "(247)",
     "Electron configuration": "[Rn] 5f9 7s2",
-    "Visual configuration": [2, 8, 18, 32, 27, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      27,
+      8,
+      2
+    ],
     "Naming": "after Berkeley, California, where it was discovered",
     "Discovery": "Lawrence Berkeley National Laboratory (1949)",
     "Phase": "solid",
@@ -3801,7 +4370,7 @@
     "CAS registry number": "7440-40-6"
   },
   {
-    "Name": "californium",
+    "Name": "Californium",
     "Symbol": "Cf",
     "Number": 98,
     "Pronunciation": "/ˌkælɨˈfɔrniəm/\nKAL-i-FOR-nee-əm",
@@ -3811,7 +4380,15 @@
     "Block": "f",
     "Standard atomic weight": "(251)",
     "Electron configuration": "[Rn] 5f10 7s2 ",
-    "Visual configuration": [2, 8, 18, 32, 28, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      28,
+      8,
+      2
+    ],
     "Naming": "after California, where it was discovered",
     "Discovery": "Lawrence Berkeley National Laboratory (1950)",
     "Phase": "solid",
@@ -3826,7 +4403,7 @@
     "CAS registry number": "7440-71-3"
   },
   {
-    "Name": "einsteinium",
+    "Name": "Einsteinium",
     "Symbol": "Es",
     "Number": 99,
     "Pronunciation": "/aɪnˈstaɪniəm/\neyen-STY-nee-əm",
@@ -3836,7 +4413,15 @@
     "Block": "f",
     "Standard atomic weight": "(252)",
     "Electron configuration": "[Rn] 5f11 7s2",
-    "Visual configuration": [2, 8, 18, 32, 29, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      29,
+      8,
+      2
+    ],
     "Naming": "after Albert Einstein",
     "Discovery": "Lawrence Berkeley National Laboratory (1952)",
     "Phase": "solid",
@@ -3850,7 +4435,7 @@
     "CAS registry number": "7429-92-7"
   },
   {
-    "Name": "fermium",
+    "Name": "Fermium",
     "Symbol": "Fm",
     "Number": 100,
     "Pronunciation": "/ˈfɜrmiəm/\nFER-mee-əm",
@@ -3860,7 +4445,15 @@
     "Block": "f",
     "Standard atomic weight": "(257)",
     "Electron configuration": "[Rn] 5f12 7s2",
-    "Visual configuration": [2, 8, 18, 32, 30, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      30,
+      8,
+      2
+    ],
     "Naming": "after Enrico Fermi",
     "Discovery": "Lawrence Berkeley National Laboratory (1952)",
     "Phase": "solid",
@@ -3871,7 +4464,7 @@
     "CAS registry number": "7440-72-4"
   },
   {
-    "Name": "mendelevium",
+    "Name": "Mendelevium",
     "Symbol": "Md",
     "Number": 101,
     "Pronunciation": "/ˌmɛndəˈlɛviəm/\nor /ˌmɛndəˈliːviəm/",
@@ -3881,7 +4474,15 @@
     "Block": "f",
     "Standard atomic weight": "(258)",
     "Electron configuration": "[Rn] 5f13 7s2",
-    "Visual configuration": [2, 8, 18, 32, 31, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      31,
+      8,
+      2
+    ],
     "Naming": "after Dmitri Mendeleev",
     "Discovery": "Lawrence Berkeley National Laboratory (1955)",
     "Phase": "solid",
@@ -3893,7 +4494,7 @@
     "CAS registry number": "7440-11-1"
   },
   {
-    "Name": "nobelium",
+    "Name": "Nobelium",
     "Symbol": "No",
     "Number": 102,
     "Pronunciation": "i/noʊˈbɛliəm/ noh-BEL-ee-əm\nor /noʊˈbiːliəm/ noh-BEE-lee-əm",
@@ -3903,7 +4504,15 @@
     "Block": "f",
     "Standard atomic weight": "[259]",
     "Electron configuration": "[Rn] 5f14 7s2",
-    "Visual configuration": [2, 8, 18, 32, 32, 8, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      2
+    ],
     "Naming": "after Alfred Nobel",
     "Discovery": "Joint Institute for Nuclear Research (1966)",
     "Phase": "solid (predicted)",
@@ -3914,7 +4523,7 @@
     "CAS registry number": "10028-14-5"
   },
   {
-    "Name": "lawrencium",
+    "Name": "Lawrencium",
     "Symbol": "Lr",
     "Number": 103,
     "Pronunciation": "i/ləˈrɛnsiəm/\nlə-REN-see-əm",
@@ -3924,7 +4533,15 @@
     "Block": "d",
     "Standard atomic weight": "[262]",
     "Electron configuration": "[Rn] 7s2 5f14 7p1",
-    "Visual configuration": [2, 8, 18, 32, 32, 8, 3],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      3
+    ],
     "Naming": "after Ernest Lawrence",
     "Discovery": "Lawrence Berkeley National Laboratory (1961)",
     "Phase": "solid presumably",
@@ -3933,7 +4550,7 @@
     "CAS registry number": "22537-19-5"
   },
   {
-    "Name": "rutherfordium",
+    "Name": "Rutherfordium",
     "Symbol": "Rf",
     "Number": 104,
     "Pronunciation": "/ˌrʌðərˈfɔrdiəm/\nRUDH-ər-FOR-dee-əm",
@@ -3943,7 +4560,15 @@
     "Block": "d",
     "Standard atomic weight": "[267]",
     "Electron configuration": "[Rn] 5f14 6d2 7s2",
-    "Visual configuration": [2, 8, 18, 32, 32, 10, 2],
+    "Visual configuration": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      10,
+      2
+    ],
     "Naming": "after Ernest Rutherford",
     "Discovery": "Joint Institute for Nuclear Research (1964)",
     "Phase": "solid (predicted)",
@@ -3957,7 +4582,7 @@
     "CAS registry number": "53850-36-5"
   },
   {
-    "Name": "dubnium",
+    "Name": "Dubnium",
     "Symbol": "Db",
     "Number": 105,
     "Pronunciation": "/ˈduːbniəm/\nDOOB-nee-əm",
@@ -3967,7 +4592,9 @@
     "Block": "d",
     "Standard atomic weight": "[268]",
     "Electron configuration": "[Rn] 5f14 6d3 7s2",
-    "Visual configuration": ["(predicted)"],
+    "Visual configuration": [
+      "(predicted)"
+    ],
     "Naming": "after Dubna, Russia, where it was discovered",
     "Discovery": "Joint Institute for Nuclear Research (1968)",
     "Phase": "solid (predicted)",
@@ -3979,7 +4606,7 @@
     "CAS registry number": "53850-35-4"
   },
   {
-    "Name": "seaborgium",
+    "Name": "Seaborgium",
     "Symbol": "Sg",
     "Number": 106,
     "Pronunciation": "i/siːˈbɔrɡiəm/\nsee-BOR-gee-əm",
@@ -3989,7 +4616,9 @@
     "Block": "d",
     "Standard atomic weight": "[269]",
     "Electron configuration": "[Rn] 5f14 6d4 7s2",
-    "Visual configuration": ["(predicted)"],
+    "Visual configuration": [
+      "(predicted)"
+    ],
     "Naming": "after Glenn T. Seaborg",
     "Discovery": "Lawrence Berkeley National Laboratory (1974)",
     "Phase": "solid (predicted)",
@@ -4001,7 +4630,7 @@
     "CAS registry number": "54038-81-2"
   },
   {
-    "Name": "bohrium",
+    "Name": "Bohrium",
     "Symbol": "Bh",
     "Number": 107,
     "Pronunciation": "i/ˈbɔəriəm/",
@@ -4011,7 +4640,9 @@
     "Block": "d",
     "Standard atomic weight": "[270]",
     "Electron configuration": "[Rn] 5f14 6d5 7s2",
-    "Visual configuration": ["(calculated)"],
+    "Visual configuration": [
+      "(calculated)"
+    ],
     "Naming": "after Niels Bohr",
     "Discovery": "Gesellschaft für Schwerionenforschung (1981)",
     "Phase": "solid (predicted)",
@@ -4023,7 +4654,7 @@
     "CAS registry number": "54037-14-8"
   },
   {
-    "Name": "hassium",
+    "Name": "Hassium",
     "Symbol": "Hs",
     "Number": 108,
     "Pronunciation": "i/ˈhæsiəm/\nHASS-ee-əm",
@@ -4033,7 +4664,9 @@
     "Block": "d",
     "Standard atomic weight": "[269]",
     "Electron configuration": "[Rn] 5f14 6d6 7s2",
-    "Visual configuration": ["(predicted)"],
+    "Visual configuration": [
+      "(predicted)"
+    ],
     "Naming": "after Hassia, Latin for Hesse, Germany, where it was discovered",
     "Discovery": "Gesellschaft für Schwerionenforschung (1984)",
     "Phase": "solid (predicted)",
@@ -4045,7 +4678,7 @@
     "CAS registry number": "54037-57-9"
   },
   {
-    "Name": "meitnerium",
+    "Name": "Meitnerium",
     "Symbol": "Mt",
     "Number": 109,
     "Pronunciation": "/maɪtˈnɪəriəm/ myt-NEER-ee-əm\nor /ˈmaɪtnəriəm/ MYT-nər-ee-əm",
@@ -4055,7 +4688,9 @@
     "Block": "d",
     "Standard atomic weight": "[278]",
     "Electron configuration": "[Rn] 5f14 6d7 7s2",
-    "Visual configuration": ["(calculated)"],
+    "Visual configuration": [
+      "(calculated)"
+    ],
     "Naming": "after Lise Meitner",
     "Discovery": "Gesellschaft für Schwerionenforschung (1982)",
     "Phase": "solid (predicted)",
@@ -4069,7 +4704,7 @@
     "CAS registry number": "54038-01-6"
   },
   {
-    "Name": "darmstadtium",
+    "Name": "Darmstadtium",
     "Symbol": "Ds",
     "Number": 110,
     "Pronunciation": "i/dɑrmˈʃtɑːtiəm/\ndarm-SHTAHT-ee-əm",
@@ -4079,7 +4714,9 @@
     "Block": "d",
     "Standard atomic weight": "[281]",
     "Electron configuration": "[Rn] 5f14 6d8 7s2",
-    "Visual configuration": ["(predicted)"],
+    "Visual configuration": [
+      "(predicted)"
+    ],
     "Naming": "after Darmstadt, Germany, where it was discovered",
     "Discovery": "Gesellschaft für Schwerionenforschung (1994)",
     "Phase": "solid (predicted)",
@@ -4091,7 +4728,7 @@
     "CAS registry number": "54083-77-1"
   },
   {
-    "Name": "roentgenium",
+    "Name": "Roentgenium",
     "Symbol": "Rg",
     "Number": 111,
     "Pronunciation": "i/rʌntˈɡɛniəm/\nrunt-GEN-ee-əm\nor /rɛntˈɡɛniəm/\nrent-GEN-ee-əm",
@@ -4101,7 +4738,9 @@
     "Block": "d",
     "Standard atomic weight": "[281]",
     "Electron configuration": "[Rn] 5f14 6d9 7s2",
-    "Visual configuration": ["(predicted)"],
+    "Visual configuration": [
+      "(predicted)"
+    ],
     "Naming": "after Wilhelm Röntgen",
     "Discovery": "Gesellschaft für Schwerionenforschung (1994)",
     "Phase": "solid (predicted)",
@@ -4113,7 +4752,7 @@
     "CAS registry number": "54386-24-2"
   },
   {
-    "Name": "copernicium",
+    "Name": "Copernicium",
     "Symbol": "Cn",
     "Number": 112,
     "Pronunciation": "/koʊpərˈnɪsiəm/\nkoe-pər-NIS-ee-əm",
@@ -4123,7 +4762,9 @@
     "Block": "d",
     "Standard atomic weight": "[285]",
     "Electron configuration": "[Rn] 5f14 6d10 7s2",
-    "Visual configuration": ["(predicted)"],
+    "Visual configuration": [
+      "(predicted)"
+    ],
     "Naming": "after Nicolaus Copernicus",
     "Discovery": "Gesellschaft für Schwerionenforschung (1996)",
     "Phase": "unknown",
@@ -4135,7 +4776,7 @@
     "CAS registry number": "54084-26-3"
   },
   {
-    "Name": "ununtrium",
+    "Name": "Ununtrium",
     "Symbol": "Uut",
     "Number": 113,
     "Pronunciation": "i/uːnˈuːntriəm/\noon-OON-tree-əm",
@@ -4145,7 +4786,9 @@
     "Block": "p",
     "Standard atomic weight": "[286]",
     "Electron configuration": "[Rn] 5f14 6d10 7s2 7p1",
-    "Visual configuration": ["(predicted)"],
+    "Visual configuration": [
+      "(predicted)"
+    ],
     "Naming": "IUPAC systematic element name",
     "Discovery": "Joint Institute for Nuclear Research and Lawrence Livermore National Laboratory (2003)",
     "Phase": "solid (predicted)",
@@ -4160,7 +4803,7 @@
     "CAS registry number": "54084-70-7"
   },
   {
-    "Name": "flerovium",
+    "Name": "Flerovium",
     "Symbol": "Fl",
     "Number": 114,
     "Pronunciation": "/flɨˈroʊviəm/\nfli-ROH-vee-əm",
@@ -4170,7 +4813,9 @@
     "Block": "p",
     "Standard atomic weight": "[289]",
     "Electron configuration": "[Rn] 5f14 6d10 7s2 7p2",
-    "Visual configuration": ["(predicted)"],
+    "Visual configuration": [
+      "(predicted)"
+    ],
     "Naming": "after Flerov Laboratory of Nuclear Reactions (itself named after Georgy Flyorov)",
     "Discovery": "Joint Institute for Nuclear Research and Lawrence Livermore National Laboratory (1999)",
     "Phase": "solid (predicted)",
@@ -4184,7 +4829,7 @@
     "CAS registry number": "54085-16-4"
   },
   {
-    "Name": "ununpentium",
+    "Name": "Ununpentium",
     "Symbol": "Uup",
     "Number": 115,
     "Pronunciation": "i/uːnuːnˈpɛntiəm/\noon-oon-PEN-tee-əm",
@@ -4194,7 +4839,9 @@
     "Block": "p",
     "Standard atomic weight": "[288]",
     "Electron configuration": "[Rn] 5f14 6d10 7s2 7p3",
-    "Visual configuration": ["(predicted)"],
+    "Visual configuration": [
+      "(predicted)"
+    ],
     "Naming": "IUPAC systematic element name",
     "Discovery": "Joint Institute for Nuclear Research and Lawrence Livermore National Laboratory (2003)",
     "Phase": "solid (predicted)",
@@ -4208,7 +4855,7 @@
     "CAS registry number": "54085-64-2"
   },
   {
-    "Name": "livermorium",
+    "Name": "Livermorium",
     "Symbol": "Lv",
     "Number": 116,
     "Pronunciation": "/ˌlɪvərˈmɔəriəm/\nLIV-ər-MOHR-ee-əm",
@@ -4218,7 +4865,9 @@
     "Block": "p",
     "Standard atomic weight": "[293]",
     "Electron configuration": "[Rn] 5f14 6d10 7s2 7p4",
-    "Visual configuration": ["(predicted)"],
+    "Visual configuration": [
+      "(predicted)"
+    ],
     "Naming": "after Lawrence Livermore National Laboratory, itself named partly after Livermore, California",
     "Discovery": "Joint Institute for Nuclear Research and Lawrence Livermore National Laboratory (2000)",
     "Density (near r.t.)": "12.9 (predicted) g·cm−3",
@@ -4228,7 +4877,7 @@
     "CAS registry number": "54100-71-9"
   },
   {
-    "Name": "ununseptium",
+    "Name": "Ununseptium",
     "Symbol": "Uus",
     "Number": 117,
     "Pronunciation": "i/uːn.uːnˈsɛptiəm/\noon-oon-SEP-tee-əm",
@@ -4238,7 +4887,9 @@
     "Block": "p",
     "Standard atomic weight": "[294]",
     "Electron configuration": "[Rn] 5f14 6d10 7s2 7p5",
-    "Visual configuration": ["(predicted)"],
+    "Visual configuration": [
+      "(predicted)"
+    ],
     "Naming": "IUPAC systematic element name",
     "Discovery": "Joint Institute for Nuclear Research and Lawrence Livermore National Laboratory (2010)",
     "Phase": "solid (predicted)",
