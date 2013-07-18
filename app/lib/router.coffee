@@ -24,7 +24,7 @@ class AppRouter extends Backbone.Router
     table.focus "Name", element
 
   category: (category) ->
-    table.focus "Category", category.toLowerCase()
+    table.focus "Category", category
 
   state: (state) ->
     table.focus "Phase", state

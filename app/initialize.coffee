@@ -2,5 +2,5 @@ app = require "application"
 
 $ ->
   app.initialize ->
-    Backbone.history.start()
+    Backbone.history.start silent: true
     window.app = app

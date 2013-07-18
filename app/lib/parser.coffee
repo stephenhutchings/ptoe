@@ -40,32 +40,32 @@ parser =
     $("a, span", div).each (i, el) ->
       el.outerHTML = el.textContent
 
-     div.contents().each ->
-        if @nodeType is 8
-          $(this).remove()
+    # remove comments
+    div.contents().each ->
+      $(@).remove() if @nodeType is 8
+          
 
     # remove those pesky edit notes and useless space
     div.html div.html().replace(/\[edit\]/gi, "")
-    div.html div.html().replace(/[\s|\n]+/gi, " ")
 
     # remove all of these suckers
-    $("sup, sub, img, table, div", div).remove()
+    $("sup, sub, img, table, div, .gallery", div).remove()
 
     # get the eq of the first occurance of
     # any title and remove proceeding content
     eq = Infinity
-    titles =
+    h2s =
       ["Notes", "See also", "References", "Further reading", "External Links", "Bibliography"]
 
-    $("h2", div).each (i, el) ->
-      for title in titles
-        eq = $(el).index() if el.textContent is title and $(el).index() < eq
+    $("h2", div).each ->
+      for h2 in h2s
+        eq = $(@).index() if @textContent is h2 and $(@).index() < eq
 
     while eq < div.contents().length - 1 and div.children().get(eq)
       div.children().get(eq).outerHTML = ""
 
     # clear some attributes
-    div.contents().each ->
+    $("*", div).each ->
       @outerHTML = "" if @textContent is ""
       $(@).removeAttr("style")
           .removeAttr("class")
@@ -73,8 +73,12 @@ parser =
           .removeAttr("title")
           .removeAttr("scope")
 
+    # remove redundant white-space
+    while div.html().match(/[\s|\n][\s|\n]+/)
+      div.html div.html().replace(/[\s|\n]+/gi, " ")
+
     object =
-      title: title
-      html: div.html()
+      "title": title
+      "html": div.html()
 
 module.exports = parser

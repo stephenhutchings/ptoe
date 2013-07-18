@@ -199,6 +199,7 @@ a {
   position: absolute;
   top: 50%;
   line-height: 36px;
+  overflow: hidden;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -291,12 +292,6 @@ body {
   color: #b8cfd9;
 }
 
-.halogen {
-  background-image: -webkit-linear-gradient(top, #ffef6e 0%, #ffeb50 100%);
-  background-color: #ffed5f;
-  background-size: auto;
-}
-
 .alkali-metal {
   background-image: -webkit-linear-gradient(top, #52ac9a 0%, #489888 100%);
   background-color: #4da291;
@@ -339,13 +334,20 @@ body {
   background-size: auto;
 }
 
-.nonmetal {
+.other-nonmetal {
   background-image: -webkit-linear-gradient(top, #00d7d1 0%, #00b9b3 100%);
   background-color: #00c8c2;
   background-size: auto;
 }
 
-.noble-gases {
+.noble-gas {
+  color: #df19ac;
+  background-image: -webkit-linear-gradient(top, #ffef6e 0%, #ffeb50 100%);
+  background-color: #ffed5f;
+  background-size: auto;
+}
+
+.halogen {
   background-image: -webkit-linear-gradient(top, #36ccdb 0%, #25bfce 100%);
   background-color: #29c9d9;
   background-size: auto;

@@ -2,12 +2,14 @@ include key
 include info
 
 #elements
-  //- include special
-  for element in locals.filter(function(el){return !(el.get("Category") == "lanthanide" || el.get("Category") == "actinide");})
-    
+  - var pattern = function(el){
+  -  return (el.get("Category") == "Lanthanide" || el.get("Category") == "Actinide");
+  - }
+
+  for element in locals.filter(function(el){return !pattern(el);})   
     include element
 
   hr.separator
 
-  for element, i in locals.filter(function(el){return (el.get("Category") == "lanthanide" || el.get("Category") == "actinide");})
+  for element, i in locals.filter(function(el){return pattern(el);})
     include element

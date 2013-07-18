@@ -40,7 +40,10 @@ class ElementView extends Backbone.View
 
     # if there is isnt an offset pos, use the center of the parent element
     if !pos
-      pos = [@el.parentNode.offsetWidth / 2, @el.parentNode.offsetHeight / 2]
+      pos = [
+        @el.parentNode.offsetWidth / 2,
+        @el.parentNode.offsetHeight / 2
+      ]
 
     clearTimeout @timeout if @timeout
     @timeout = setTimeout(=>

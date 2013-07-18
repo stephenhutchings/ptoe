@@ -7,19 +7,22 @@ KeyView = require("./key")
 
 class PeriodicTableView extends Backbone.View
   elements: []
+  attempts: 0
 
   template: template
 
   events:
-    "start":               "savePosition"
-    "move":                "savePosition"
+    "start":         "savePosition"
+    "move":          "savePosition"
 
-    # "end .el":                 "selectElement"
-    # "end .material .key-item": "selectCategory"
-    # "end .state .key-item":    "selectState"
+    "swipeleft":     "next"
+    "swiperight":    "previous"
 
   initialize: ->
     @render()
+    console.log Backbone.history.fragment
+    if Backbone.history.fragment is "" and !@el.classList.contains "sorted"
+      app.router.navigate Backbone.history.fragment, true
 
   render: ->
     @$el.html @template(application.elementCollection)
@@ -27,23 +30,29 @@ class PeriodicTableView extends Backbone.View
     @infoView = new InfoView el: "#info"
     @keyView = new KeyView el: "#keys"
 
+    # setTimeout( =>
+
     for el, i in @el.querySelectorAll(".el-container")
       @elements.push new ElementView
         el: el
         model: application.elementCollection.findWhere "Number": +el.dataset.number
 
+    # , 100)
+
 
   savePosition: (e) ->
-    if e.data.touches
-      @pos = [e.data.touches[0].clientX, e.data.touches[0].clientY]
-    else
-      @pos = [e.data.clientX, e.data.clientY]
+    point = if e.data.touches then e.data.touches[0] else e.data
+    @pos = [
+      point.clientX,
+      point.clientY
+    ]
 
   focus: (key, value) ->
     multiple = 0
     @el.classList.add "sorted"
+    clearTimeout @timeout if @timeout
 
-    @pos = null unless key is "atom"
+    @pos = null unless key is "Name"
 
     application.elementCollection
       .each (model) =>
@@ -54,24 +63,37 @@ class PeriodicTableView extends Backbone.View
         else
           model.trigger "hide", @pos
 
-
-    child = application.infoCollection.findWhere title: value
     console.log value
+    child = application.infoCollection.findWhere title: value
     if child
       html = child.get("html")
+      @attempts = 0
     else
       html = "Could not load the information."
+      @timeout = setTimeout( =>
+        if @attempts < 10
+          @focus key, value
+          @attempts++
+      , 1000 * @attempts)
+    
     @infoView.render(html)
 
   defocus: ->
     @el.classList.remove "sorted"
+    clearTimeout @timeout if @timeout
+
     for el in @el.querySelectorAll ".active-sort"
-      el.classList.remove "sorted"
+      el.classList.remove "active-sort"
+
     application.elementCollection
       .each (model) =>
         model.trigger "show"
 
     @infoView.hide()
+
+    next: ->
+
+    previous: ->
 
 
 module.exports = PeriodicTableView

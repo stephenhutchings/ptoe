@@ -9,8 +9,9 @@ class KeyView extends Backbone.View
 
   route: (e) ->
     el = e.currentTarget
+
     if el.classList.toggle "active-sort"
-      application.router.navigate "category/#{el.textContent}", true
+      application.router.navigate "category/#{el.dataset.sort}", true
     else
       application.router.navigate "", true
 

@@ -10,9 +10,9 @@ Application =
     @infoCollection.fetch
       success: =>
 
-    Crawler = require "crawl"
-    @crawler = new Crawler()
-    # @crawler.initialize(@infoCollection)
+        Crawler = require "crawl"
+        @crawler = new Crawler()
+        # @crawler.initialize(@infoCollection, "info")
     
     @elementCollection = new ElementCollection()
     @elementCollection.fetch

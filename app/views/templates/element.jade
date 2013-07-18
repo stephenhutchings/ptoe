@@ -1,5 +1,5 @@
 a.el-container(id="el-#{element.get("Symbol").toLowerCase()}",
-               class="#{element.get("Category").split(" ").join("-")} #{element.get("Phase")}",
+               class="#{element.get("Category").split(" ").join("-").toLowerCase()} #{element.get("Phase")}",
                data-number=element.get("Number"))
   .el
     .num= element.get("Number")

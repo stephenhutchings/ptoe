@@ -44,7 +44,9 @@ class InfoView extends Backbone.View
   render: (html) ->
     @style.display = "block"
     @style.opacity = 0
+    console.log "render"
 
+    clearTimeout @timeout if @timeout
     @timeout = setTimeout( =>
       @show html
     , if @active then @transitionDuration else 0)
