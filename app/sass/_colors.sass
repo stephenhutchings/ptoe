@@ -1,0 +1,81 @@
+//
+  Colors
+
+body
+  color: #333
+
+$header-background-color: #32455B
+
+.key-container,
+.key-switch-list .key-item
+  +gradient-of-color(lighten($header-background-color, 4))
+
+.key-item.key-active
+  border-left-color: lighten($header-background-color, 4)
+
+
+.material .key-item
+  color: #fff
+
+.scrolling-header
+  color: $header-background-color
+
+.scrolling-header.fixed
+  // background-color: $header-background-color
+  color: #fff
+
+.key-list.state .key-item
+  background-color: #94b5c4
+
+.solid
+  color: #FFFFFF
+.gas
+  color: #333
+.liquid
+  color: #0084DB
+.unknown
+  color: #50788A
+
+// .primordial
+
+.synthetic
+  background:
+    image: inline-image("synthetic-bg.png")
+    size: 100%
+    repeat: no-repeat
+
+.decay
+  background:
+    image: inline-image("decay-bg.png")
+    size: 100%
+    repeat: no-repeat
+
+.unknown-category
+  +gradient-of-color(#D7E3EC)
+.alkali-metal
+  +gradient-of-color(#4DA291)
+.alkaline-earth-metal
+  +gradient-of-color(#49B680)
+.lanthanide
+  +gradient-of-color(#29C9D9)
+.actinide
+  +gradient-of-color(#1A9BCE)
+.transition-metal
+  +gradient-of-color(#00C8C2)
+.post-transition-metal
+  +gradient-of-color(#426F96)
+.metalloid
+  +gradient-of-color(#B887D8)
+.other-nonmetal
+  +gradient-of-color(#F86192)
+.halogen
+  +gradient-of-color(#FFA061)
+.noble-gas
+  +gradient-of-color(#FFED5F)
+
+.active-sort
+  border-color: transparent
+
+.special .num
+  color: #4d5c69
+

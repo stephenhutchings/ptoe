@@ -1,4 +1,4 @@
-parser = 
+parser =
   parseElementData: (div, title) ->
     object = {}
 
@@ -10,7 +10,7 @@ parser =
       $el = $(el)
       key = $el.find("th").text()
       value = $el.find("td").text()
-      
+
       # Not applicable data
       if key is "" or value is ""
         return
@@ -30,7 +30,7 @@ parser =
           object[subkey] = value.split(", ")[i]
 
       # Normal data
-      else 
+      else
         object[key] = value
 
     object
@@ -43,7 +43,7 @@ parser =
     # remove comments
     div.contents().each ->
       $(@).remove() if @nodeType is 8
-          
+
 
     # remove those pesky edit notes and useless space
     div.html div.html().replace(/\[edit\]/gi, "")

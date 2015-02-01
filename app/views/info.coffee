@@ -1,9 +1,13 @@
-application = require("application")
+app         = require("app")
 prefix      = require("lib/prefix")
+about       = require("./templates/about")
+infoBody    = require("./templates/info-body")
 
 class InfoView extends Backbone.View
   transitionDuration: 400
   transitionDelay: 800
+
+  attempts: 0
 
   initialize: ->
     @style = @el.style
@@ -16,39 +20,44 @@ class InfoView extends Backbone.View
     @style[prefix "transitionProperty"] = "all"
 
   initializeScroller: ->
-    @scroller = new IScroll @el,
+    @scroller =
+     new IScroll @el,
       mouseWheel: true
       probeType: 3
 
-    @scroller.on "scroll", =>
-      @translateHeaders()
-
   initializeHeaders: ->
     @headers = []
+
     headerElements = @el.querySelectorAll "h2"
 
-    for h2 in headerElements
-      h2.className = "scrolling-header"
-      before = h2.previousElementSibling || document.createElement("div")
-      @headers.push
-        el:  h2
-        height: h2.offsetHeight
-        min: before.offsetTop + before.offsetHeight + h2.offsetHeight / 2
+    if headerElements
+      for h2 in headerElements
+        h2.className = "scrolling-header"
+        before = h2.previousElementSibling || offsetTop: 0, offsetHeight: 0
+        @headers.push
+          el:  h2
+          height: h2.offsetHeight
+          min: before.offsetTop + before.offsetHeight - 1
 
-      hr  = document.createElement("hr")
-      hr.className = "hr"
-      h2.insertAdjacentElement "afterend", hr
+        hr  = document.createElement( "hr")
+        hr.className = "hr"
+        h2.parentNode.insertBefore hr, h2.nextSibling
 
-    @translateHeaders()
+      @scroller.on "scroll", => @translateHeaders()
 
-  render: (html) ->
+      @translateHeaders()
+
+  render: (key, value) ->
+    html = @getHTML key, value
+
     @style.display = "block"
     @style.opacity = 0
-    console.log "render"
+
+    model = app.elementCollection.findWhere "Name": value if key is "Name"
 
     clearTimeout @timeout if @timeout
     @timeout = setTimeout( =>
-      @show html
+      @show infoBody(model: model or null, html: html, title: value)
     , if @active then @transitionDuration else 0)
 
   show: (html, callback) ->
@@ -56,8 +65,8 @@ class InfoView extends Backbone.View
 
     if @html isnt html
       @scroller.scroller.innerHTML = html
-      @scroller.refresh()
       @scroller.scrollTo 0, 0
+      refresh = true
       @html = html
     else
       @scroller.scroller.innerHTML = @html
@@ -66,7 +75,9 @@ class InfoView extends Backbone.View
 
     clearTimeout @timeout if @timeout
     @timeout = setTimeout( =>
+      @scroller.refresh()
       @style.opacity = 1
+      @translateHeaders()
     , @transitionDelay)
 
   hide: (callback) ->
@@ -80,16 +91,36 @@ class InfoView extends Backbone.View
     , @transitionDuration)
 
   translateHeaders: ->
+    scrollTop = -@scroller.y
+
     for header, i in @headers
-      unless header.max
-        previous = @headers[i + 1]
-        header.max = if previous then previous.min - header.height else Infinity
-        
-      y = Math.max(Math.min(-@scroller.y, header.max), header.min)
+      next = @headers[i + 1] or min: Infinity
 
-      header.el.classList[if y > header.min then "add" else "remove"] "solid" 
+      # Ensure every header has a max
+      header.max or header.max = next.min - header.height
 
-      header.el.style[prefix("transform")] =
-        "translate3d(0,#{y}px,0)"
+      y = Math.max(Math.min(scrollTop, header.max), header.min)
+
+      header.el.style[prefix "transform"] = "translate3d(0, #{y}px, 0)"
+      header.el.classList[if y > header.min then "add" else "remove"] "solid"
+
+      # TODO: render only within viewport
+      itsAboveTheViewport = scrollTop + header.height > header.max
+
+  getHTML: (key, value) ->
+    if key is "About"
+      html = about()
+      value = "About"
+    else
+      child = app.infoCollection.findWhere "name": value
+
+      if !child and app.infoCollection.length > 0
+        html = "<p>No information about #{value} is available.</p>"
+      else if child
+        html = child.get("html")
+      else
+        html = "<p>Failed to load #{value}</p>"
+
+    html
 
 module.exports = InfoView

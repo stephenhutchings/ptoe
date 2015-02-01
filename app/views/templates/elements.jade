@@ -1,15 +1,13 @@
-include key
-include info
+- var pattern = function(el){
+-  return (el.get("Category") == "Lanthanide" || el.get("Category") == "Actinide");
+- }
 
-#elements
-  - var pattern = function(el){
-  -  return (el.get("Category") == "Lanthanide" || el.get("Category") == "Actinide");
-  - }
+include special
 
-  for element in locals.filter(function(el){return !pattern(el);})   
-    include element
+for element in locals.filter(function(el){return !pattern(el);})
+  include element
 
-  hr.separator
+hr.separator
 
-  for element, i in locals.filter(function(el){return pattern(el);})
-    include element
+for element, i in locals.filter(function(el){return pattern(el);})
+  include element

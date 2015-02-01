@@ -9,6 +9,6 @@ class ElementCollection extends Backbone.Collection
   comparator: (element) ->
     element.get("atomic_number")
 
-  initialize: () ->
+  initialize: ->
 
 module.exports = ElementCollection

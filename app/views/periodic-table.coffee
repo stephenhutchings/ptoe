@@ -1,5 +1,6 @@
-application = require("application")
-template = require("./templates/elements")
+app = require("app")
+template = require("./templates/table")
+elements = require("./templates/elements")
 
 ElementView = require("./element")
 InfoView = require("./info")
@@ -7,93 +8,100 @@ KeyView = require("./key")
 
 class PeriodicTableView extends Backbone.View
   elements: []
-  attempts: 0
 
   template: template
 
-  events:
-    "start":         "savePosition"
-    "move":          "savePosition"
+  events: ->
+    isTouch = "ontouchstart" of window
+    _events =
+      "iostap #close-info": "defocus"
+      "swipeleft":          "next"
+      "swiperight":         "previous"
 
-    "swipeleft":     "next"
-    "swiperight":    "previous"
+    _events[if isTouch then "touchstart" else "mousedown"] = "savePosition"
+    _events[if isTouch then "touchmove" else "mousemove"] = "savePosition"
+
+    return _events
 
   initialize: ->
     @render()
     console.log Backbone.history.fragment
-    if Backbone.history.fragment is "" and !@el.classList.contains "sorted"
+    if Backbone.history.fragment is "" and !@el.classList.contains "focused"
       app.router.navigate Backbone.history.fragment, true
 
-  render: ->
-    @$el.html @template(application.elementCollection)
+  ready: ->
+    @el.querySelector("#elements").innerHTML = elements(app.elementCollection)
+    @el.parentNode.classList.add "ready"
 
-    @infoView = new InfoView el: "#info"
-    @keyView = new KeyView el: "#keys"
-
-    # setTimeout( =>
-
-    for el, i in @el.querySelectorAll(".el-container")
+    for el, i in @el.querySelectorAll(".el")
       @elements.push new ElementView
         el: el
-        model: application.elementCollection.findWhere "Number": +el.dataset.number
+        model: app.elementCollection.findWhere "Number": +el.dataset.number
 
-    # , 100)
+  render: ->
+    @$el.html @template()
+
+    @infoView = new InfoView el: "#info"
+    @keyView = new KeyView el: "#header"
 
 
   savePosition: (e) ->
-    point = if e.data.touches then e.data.touches[0] else e.data
+    point = e.touches?[0] or e
     @pos = [
       point.clientX,
       point.clientY
     ]
 
   focus: (key, value) ->
-    multiple = 0
-    @el.classList.add "sorted"
-    clearTimeout @timeout if @timeout
+    current = sofar = 0
+    filter = {}
+    filter[key] = value
+    total = app.elementCollection.where(filter).length
 
-    @pos = null unless key is "Name"
+    do @declass
 
-    application.elementCollection
+    @el.classList.add "focus-#{key.toLowerCase()}"
+    @el.classList.add "focus"
+
+    app.elementCollection
       .each (model) =>
-        if model.get(key) is value
+        if model.get(key) is value and value
           model.trigger "focus"
-          model.trigger "show", multiple
-          multiple++
+          model.trigger "show", 400, current, =>
+            sofar++
+            @el.classList.add "focused" if sofar is total
+          current++
         else
-          model.trigger "hide", @pos
+          model.trigger "hide", 400, [].concat @pos
 
-    console.log value
-    child = application.infoCollection.findWhere title: value
-    if child
-      html = child.get("html")
-      @attempts = 0
-    else
-      html = "Could not load the information."
-      @timeout = setTimeout( =>
-        if @attempts < 10
-          @focus key, value
-          @attempts++
-      , 1000 * @attempts)
-    
-    @infoView.render(html)
+    clearTimeout @timeout if @timeout
+    @timeout = setTimeout( =>
+      @infoView.render(key, value)
+    , 300)
 
   defocus: ->
-    @el.classList.remove "sorted"
+    do @declass
+
     clearTimeout @timeout if @timeout
 
-    for el in @el.querySelectorAll ".active-sort"
-      el.classList.remove "active-sort"
+    for el in @el.querySelectorAll ".active-focus"
+      el.classList.remove "active-focus"
 
-    application.elementCollection
+    app.elementCollection
       .each (model) =>
         model.trigger "show"
 
     @infoView.hide()
 
-    next: ->
+  declass: ->
+    @el.removeAttribute "class"
 
-    previous: ->
+    for clone in @el.querySelectorAll ".clone"
+      clone.parentNode.removeChild clone
+
+  next: ->
+
+  previous: ->
 
 
 module.exports = PeriodicTableView

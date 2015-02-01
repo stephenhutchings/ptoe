@@ -1,9 +1,0 @@
-{
-  "files": [
-    {
-      "from": "file.sass.hbs",
-      "to": "app/styles/{{name}}.sass"
-    }
-  ],
-  "dependencies": []
-}

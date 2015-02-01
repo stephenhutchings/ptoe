@@ -1,0 +1,29 @@
+#header
+
+  #keys,
+  #colophon,
+  #header-background
+    +transition(all 300ms 800ms)
+
+  #header-background
+    position: fixed
+    width: 100%
+    left: 0
+    height: 188px
+    z-index: -1
+    background-color: $header-background-color
+
+.focus
+  #header
+    #keys,
+    #colophon,
+    #header-background
+      +transition-delay(0)
+
+    #header-background
+      +transform(translate3d(0,-68px,0))
+
+    #keys,
+    #colophon
+      opacity: 0.5
+      +transform(translate3d(0,-92px,0))

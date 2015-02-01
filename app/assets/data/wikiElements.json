@@ -36,7 +36,8 @@
     "Magnetic ordering": "diamagnetic",
     "Thermal conductivity": "0.1805 W·m−1·K−1",
     "Speed of sound": "(gas, 27 °C) 1310 m·s−1",
-    "CAS registry number": "1333-74-0"
+    "CAS registry number": "1333-74-0",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Helium",
@@ -74,7 +75,8 @@
     "Magnetic ordering": "diamagnetic",
     "Thermal conductivity": "0.1513 W·m−1·K−1",
     "Speed of sound": "972 m·s−1",
-    "CAS registry number": "7440-59-7"
+    "CAS registry number": "7440-59-7",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Lithium",
@@ -118,7 +120,8 @@
     "Shear modulus": "4.2 GPa",
     "Bulk modulus": "11 GPa",
     "Mohs hardness": "0.6",
-    "CAS registry number": "7439-93-2"
+    "CAS registry number": "7439-93-2",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Beryllium",
@@ -164,7 +167,8 @@
     "Mohs hardness": "5.5",
     "Vickers hardness": "1670 MPa",
     "Brinell hardness": "600 MPa",
-    "CAS registry number": "7440-41-7"
+    "CAS registry number": "7440-41-7",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Boron",
@@ -203,7 +207,8 @@
     "Thermal expansion": "(25 °C) (β form) 5–7 µm·m−1·K−1",
     "Speed of sound (thin rod)": "(20 °C) 16,200 m·s−1",
     "Mohs hardness": "~9.5",
-    "CAS registry number": "7440-42-8"
+    "CAS registry number": "7440-42-8",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Carbon",
@@ -243,7 +248,8 @@
     "Bulk modulus": "442 (diamond)[10] GPa",
     "Poisson ratio": "0.1 (diamond)[10]",
     "Mohs hardness": "10 (diamond)\n1-2 (graphite)",
-    "CAS registry number": "7440-44-0"
+    "CAS registry number": "7440-44-0",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Nitrogen",
@@ -281,7 +287,8 @@
     "Magnetic ordering": "diamagnetic",
     "Thermal conductivity": "25.83 × 10−3 W·m−1·K−1",
     "Speed of sound": "(gas, 27 °C) 353 m·s−1",
-    "CAS registry number": "7727-37-9"
+    "CAS registry number": "7727-37-9",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Oxygen",
@@ -318,7 +325,8 @@
     "Magnetic ordering": "paramagnetic",
     "Thermal conductivity": "26.58x10-3  W·m−1·K−1",
     "Speed of sound": "(gas, 27 °C) 330 m·s−1",
-    "CAS registry number": "7782-44-7"
+    "CAS registry number": "7782-44-7",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Fluorine",
@@ -354,7 +362,8 @@
     "Crystal structure": "monoclinic\nalpha state (low-temperature)",
     "Magnetic ordering": "diamagnetic, −1.2×10−4 (SI)[10][11]",
     "Thermal conductivity": "0.02591[12] W·m−1·K−1",
-    "CAS registry number": "7782-41-4"
+    "CAS registry number": "7782-41-4",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Neon",
@@ -393,7 +402,8 @@
     "Thermal conductivity": "49.1x10-3  W·m−1·K−1",
     "Speed of sound": "(gas, 0 °C) 435 m·s−1",
     "Bulk modulus": "654 GPa",
-    "CAS registry number": "7440-01-9"
+    "CAS registry number": "7440-01-9",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Sodium",
@@ -437,7 +447,8 @@
     "Bulk modulus": "6.3 GPa",
     "Mohs hardness": "0.5",
     "Brinell hardness": "0.69 MPa",
-    "CAS registry number": "7440-23-5"
+    "CAS registry number": "7440-23-5",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Magnesium",
@@ -484,7 +495,8 @@
     "Poisson ratio": "0.290",
     "Mohs hardness": "2.5",
     "Brinell hardness": "260 MPa",
-    "CAS registry number": "7439-95-4"
+    "CAS registry number": "7439-95-4",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Aluminium",
@@ -532,7 +544,8 @@
     "Mohs hardness": "2.75",
     "Vickers hardness": "167 MPa",
     "Brinell hardness": "245 MPa",
-    "CAS registry number": "7429-90-5"
+    "CAS registry number": "7429-90-5",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Silicon",
@@ -580,7 +593,8 @@
     "Poisson ratio": "0.064 - 0.28",
     "Mohs hardness": 7,
     "CAS registry number": "7440-21-3",
-    "Band gap energy at 300 K": "1.12 eV"
+    "Band gap energy at 300 K": "1.12 eV",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Phosphorus",
@@ -617,7 +631,8 @@
     "Magnetic ordering": "(white, red, violet, black) diamagnetic",
     "Thermal conductivity": "(white) 0.236, (black) 12.1 W·m−1·K−1",
     "Bulk modulus": "(white) 5, (red) 11 GPa",
-    "CAS registry number": "7723-14-0"
+    "CAS registry number": "7723-14-0",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Sulfur",
@@ -657,7 +672,8 @@
     "Thermal conductivity": "(amorphous)\n0.205 W·m−1·K−1",
     "Bulk modulus": "7.7 GPa",
     "Mohs hardness": "2.0",
-    "CAS registry number": "7704-34-9"
+    "CAS registry number": "7704-34-9",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Chlorine",
@@ -697,7 +713,8 @@
     "Electrical resistivity": "(20 °C) > 10 Ω·m",
     "Thermal conductivity": "8.9×10−3  W·m−1·K−1",
     "Speed of sound": "(gas, 0 °C) 206 m·s−1",
-    "CAS registry number": "7782-50-5"
+    "CAS registry number": "7782-50-5",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Argon",
@@ -736,7 +753,8 @@
     "Magnetic ordering": "diamagnetic",
     "Thermal conductivity": "17.72x10-3  W·m−1·K−1",
     "Speed of sound": "(gas, 27 °C) 323 m·s−1",
-    "CAS registry number": "7440–37–1"
+    "CAS registry number": "7440–37–1",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Potassium",
@@ -783,7 +801,8 @@
     "Bulk modulus": "3.1 GPa",
     "Mohs hardness": "0.4",
     "Brinell hardness": "0.363 MPa",
-    "CAS registry number": "7440-09-7"
+    "CAS registry number": "7440-09-7",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Calcium",
@@ -830,7 +849,8 @@
     "Poisson ratio": "0.31",
     "Mohs hardness": "1.75",
     "Brinell hardness": "167 MPa",
-    "CAS registry number": "7440-70-2"
+    "CAS registry number": "7440-70-2",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Scandium",
@@ -877,7 +897,8 @@
     "Bulk modulus": "56.6 GPa",
     "Poisson ratio": "0.279",
     "Brinell hardness": "750 MPa",
-    "CAS registry number": "7440-20-2"
+    "CAS registry number": "7440-20-2",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Titanium",
@@ -925,7 +946,8 @@
     "Mohs hardness": "6.0",
     "Vickers hardness": "970 MPa",
     "Brinell hardness": "716 MPa",
-    "CAS registry number": "7440-32-6"
+    "CAS registry number": "7440-32-6",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Vanadium",
@@ -971,7 +993,8 @@
     "Bulk modulus": "160 GPa",
     "Poisson ratio": "0.37",
     "Mohs hardness": "6.7",
-    "CAS registry number": "7440-62-2"
+    "CAS registry number": "7440-62-2",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Chromium",
@@ -1018,7 +1041,8 @@
     "Mohs hardness": "8.5",
     "Vickers hardness": "1060 MPa",
     "Brinell hardness": "1120 MPa",
-    "CAS registry number": "7440-47-3"
+    "CAS registry number": "7440-47-3",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Manganese",
@@ -1062,7 +1086,8 @@
     "Bulk modulus": "120 GPa",
     "Mohs hardness": "6.0",
     "Brinell hardness": "196 MPa",
-    "CAS registry number": "7439-96-5"
+    "CAS registry number": "7439-96-5",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Iron",
@@ -1108,7 +1133,8 @@
     "Mohs hardness": 4,
     "Vickers hardness": "608 MPa",
     "Brinell hardness": "490 MPa",
-    "CAS registry number": "7439-89-6"
+    "CAS registry number": "7439-89-6",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Cobalt",
@@ -1155,7 +1181,8 @@
     "Mohs hardness": "5.0",
     "Vickers hardness": "1043 MPa",
     "Brinell hardness": "700 MPa",
-    "CAS registry number": "7440-48-4"
+    "CAS registry number": "7440-48-4",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Nickel",
@@ -1206,7 +1233,8 @@
     "Mohs hardness": "4.0",
     "Vickers hardness": "638 MPa",
     "Brinell hardness": "700 MPa",
-    "CAS registry number": "7440-02-0"
+    "CAS registry number": "7440-02-0",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Copper",
@@ -1254,7 +1282,8 @@
     "Mohs hardness": "3.0",
     "Vickers hardness": "369 MPa",
     "Brinell hardness": "35 HB = 874 MPa",
-    "CAS registry number": "7440-50-8"
+    "CAS registry number": "7440-50-8",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Zinc",
@@ -1302,7 +1331,8 @@
     "Poisson ratio": "0.25",
     "Mohs hardness": "2.5",
     "Brinell hardness": "412 MPa",
-    "CAS registry number": "7440-66-6"
+    "CAS registry number": "7440-66-6",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Gallium",
@@ -1349,7 +1379,8 @@
     "Poisson ratio": "0.47",
     "Mohs hardness": "1.5",
     "Brinell hardness": "60 MPa",
-    "CAS registry number": "7440-55-3"
+    "CAS registry number": "7440-55-3",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Germanium",
@@ -1397,7 +1428,8 @@
     "Poisson ratio": "0.26",
     "Mohs hardness": "6.0",
     "CAS registry number": "7440-56-4",
-    "Band gap energy at 300 K": "0.67 eV"
+    "Band gap energy at 300 K": "0.67 eV",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Arsenic",
@@ -1441,7 +1473,8 @@
     "Bulk modulus": "22 GPa",
     "Mohs hardness": "3.5",
     "Brinell hardness": "1440 MPa",
-    "CAS registry number": "7440-38-2"
+    "CAS registry number": "7440-38-2",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Selenium",
@@ -1489,7 +1522,8 @@
     "Poisson ratio": "0.33",
     "Mohs hardness": "2.0",
     "Brinell hardness": "736 MPa",
-    "CAS registry number": "7782-49-2"
+    "CAS registry number": "7782-49-2",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Bromine",
@@ -1529,7 +1563,8 @@
     "Electrical resistivity": "(20 °C) 7.8×1010Ω·m",
     "Thermal conductivity": "0.122 W·m−1·K−1",
     "Speed of sound": "(20°C) 206 m·s−1",
-    "CAS registry number": "7726-95-6"
+    "CAS registry number": "7726-95-6",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Krypton",
@@ -1569,7 +1604,8 @@
     "Magnetic ordering": "diamagnetic",
     "Thermal conductivity": "9.43×10-3  W·m−1·K−1",
     "Speed of sound": "(gas, 23 °C) 220, (Liquid) 1120 m·s−1",
-    "CAS registry number": "7439-90-9"
+    "CAS registry number": "7439-90-9",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Rubidium",
@@ -1615,7 +1651,8 @@
     "Bulk modulus": "2.5 GPa",
     "Mohs hardness": "0.3",
     "Brinell hardness": "0.216 MPa",
-    "CAS registry number": "7440-17-7"
+    "CAS registry number": "7440-17-7",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Strontium",
@@ -1661,7 +1698,8 @@
     "Shear modulus": "6.03 GPa",
     "Poisson ratio": "0.28",
     "Mohs hardness": "1.5",
-    "CAS registry number": "7440-24-6"
+    "CAS registry number": "7440-24-6",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Yttrium",
@@ -1708,7 +1746,8 @@
     "Bulk modulus": "41.2 GPa",
     "Poisson ratio": "0.243",
     "Brinell hardness": "589 MPa",
-    "CAS registry number": "7440-65-5"
+    "CAS registry number": "7440-65-5",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Zirconium",
@@ -1756,7 +1795,8 @@
     "Mohs hardness": "5.0",
     "Vickers hardness": "903 MPa",
     "Brinell hardness": "650 MPa",
-    "CAS registry number": "7440-67-7"
+    "CAS registry number": "7440-67-7",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Niobium",
@@ -1804,7 +1844,8 @@
     "Mohs hardness": "6.0",
     "Vickers hardness": "1320 MPa",
     "Brinell hardness": "736 MPa",
-    "CAS registry number": "7440-03-1"
+    "CAS registry number": "7440-03-1",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Molybdenum",
@@ -1853,7 +1894,8 @@
     "Mohs hardness": "5.5",
     "Vickers hardness": "1530 MPa",
     "Brinell hardness": "1500 MPa",
-    "CAS registry number": "7439-98-7"
+    "CAS registry number": "7439-98-7",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Technetium",
@@ -1892,7 +1934,8 @@
     "Magnetic ordering": "Paramagnetic",
     "Thermal conductivity": "50.6 W·m−1·K−1",
     "Speed of sound (thin rod)": "(20 °C) 16,200 m·s−1",
-    "CAS registry number": "7440-26-8"
+    "CAS registry number": "7440-26-8",
+    "Occurance": "From decay"
   },
   {
     "Name": "Ruthenium",
@@ -1912,6 +1955,7 @@
       15,
       1
     ],
+    "Phase": "Solid",
     "Naming": "after Ruthenia (Latin for: medieval Russian region)",
     "Discovery": "Jędrzej Śniadecki (1807)",
     "First isolation": "Jędrzej Śniadecki (1807)",
@@ -1940,7 +1984,8 @@
     "Poisson ratio": "0.30",
     "Mohs hardness": "6.5",
     "Brinell hardness": "2160 MPa",
-    "CAS registry number": "7440-18-8"
+    "CAS registry number": "7440-18-8",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Rhodium",
@@ -1988,7 +2033,8 @@
     "Mohs hardness": "6.0",
     "Vickers hardness": "1246 MPa",
     "Brinell hardness": "1100 MPa",
-    "CAS registry number": "7440-16-6"
+    "CAS registry number": "7440-16-6",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Palladium",
@@ -2037,7 +2083,8 @@
     "Mohs hardness": "4.75",
     "Vickers hardness": "461 MPa",
     "Brinell hardness": "310 MPa",
-    "CAS registry number": "7440-05-3"
+    "CAS registry number": "7440-05-3",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Silver",
@@ -2086,7 +2133,8 @@
     "Mohs hardness": "2.5",
     "Vickers hardness": "251 MPa",
     "Brinell hardness": "206 MPa",
-    "CAS registry number": "7440-22-4"
+    "CAS registry number": "7440-22-4",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Cadmium",
@@ -2135,7 +2183,8 @@
     "Poisson ratio": "0.30",
     "Mohs hardness": "2.0",
     "Brinell hardness": "203 MPa",
-    "CAS registry number": "7440-43-9"
+    "CAS registry number": "7440-43-9",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Indium",
@@ -2180,7 +2229,8 @@
     "Young's modulus": "11 GPa",
     "Mohs hardness": "1.2",
     "Brinell hardness": "8.83 MPa",
-    "CAS registry number": "7440-74-6"
+    "CAS registry number": "7440-74-6",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Tin",
@@ -2227,7 +2277,8 @@
     "Poisson ratio": "0.36",
     "Mohs hardness": "1.5",
     "Brinell hardness": "~350 MPa",
-    "CAS registry number": "7440-31-5"
+    "CAS registry number": "7440-31-5",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Antimony",
@@ -2274,7 +2325,8 @@
     "Bulk modulus": "42 GPa",
     "Mohs hardness": "3.0",
     "Brinell hardness": "294 MPa",
-    "CAS registry number": "7440-36-0"
+    "CAS registry number": "7440-36-0",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Tellurium",
@@ -2320,7 +2372,8 @@
     "Bulk modulus": "65 GPa",
     "Mohs hardness": "2.25",
     "Brinell hardness": "180 MPa",
-    "CAS registry number": "13494-80-9"
+    "CAS registry number": "13494-80-9",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Iodine",
@@ -2362,7 +2415,8 @@
     "Electrical resistivity": "(0 °C) 1.3×107Ω·m",
     "Thermal conductivity": "0.449 W·m−1·K−1",
     "Bulk modulus": "7.7 GPa",
-    "CAS registry number": "7553-56-2"
+    "CAS registry number": "7553-56-2",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Xenon",
@@ -2403,7 +2457,8 @@
     "Magnetic ordering": "diamagnetic",
     "Thermal conductivity": "5.65×10-3  W·m−1·K−1",
     "Speed of sound": "(Liquid) 1090 m/s; (gas) 169 m·s−1",
-    "CAS registry number": "7440-63-3"
+    "CAS registry number": "7440-63-3",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Caesium",
@@ -2450,7 +2505,8 @@
     "Bulk modulus": "1.6 GPa",
     "Mohs hardness": "0.2",
     "Brinell hardness": "0.14 MPa",
-    "CAS registry number": "7440-46-2"
+    "CAS registry number": "7440-46-2",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Barium",
@@ -2497,7 +2553,8 @@
     "Shear modulus": "4.9 GPa",
     "Bulk modulus": "9.6 GPa",
     "Mohs hardness": "1.25",
-    "CAS registry number": "7440-39-3"
+    "CAS registry number": "7440-39-3",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Lanthanum",
@@ -2545,7 +2602,8 @@
     "Mohs hardness": "2.5",
     "Vickers hardness": "491 MPa",
     "Brinell hardness": "363 MPa",
-    "CAS registry number": "7439-91-0"
+    "CAS registry number": "7439-91-0",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Cerium",
@@ -2595,7 +2653,8 @@
     "Mohs hardness": "2.5",
     "Vickers hardness": "270 MPa",
     "Brinell hardness": "412 MPa",
-    "CAS registry number": "7440-45-1"
+    "CAS registry number": "7440-45-1",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Praseodymium",
@@ -2642,7 +2701,8 @@
     "Poisson ratio": "(α form) 0.281",
     "Vickers hardness": "400 MPa",
     "Brinell hardness": "481 MPa",
-    "CAS registry number": "7440-10-0"
+    "CAS registry number": "7440-10-0",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Neodymium",
@@ -2689,7 +2749,8 @@
     "Poisson ratio": "(α form) 0.281",
     "Vickers hardness": "343 MPa",
     "Brinell hardness": "265 MPa",
-    "CAS registry number": "7440-00-8"
+    "CAS registry number": "7440-00-8",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Promethium",
@@ -2733,7 +2794,8 @@
     "Shear modulus": "(α form) est. 18 GPa",
     "Bulk modulus": "(α form) est. 33 GPa",
     "Poisson ratio": "(α form) est. 0.28",
-    "CAS registry number": "7440-12-2"
+    "CAS registry number": "7440-12-2",
+    "Occurance": "From decay"
   },
   {
     "Name": "Samarium",
@@ -2782,7 +2844,8 @@
     "Poisson ratio": "(α form) 0.274",
     "Vickers hardness": "412 MPa",
     "Brinell hardness": "441 MPa",
-    "CAS registry number": "7440-19-9"
+    "CAS registry number": "7440-19-9",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Europium",
@@ -2829,7 +2892,8 @@
     "Bulk modulus": "8.3 GPa",
     "Poisson ratio": "0.152",
     "Vickers hardness": "167 MPa",
-    "CAS registry number": "7440-53-1"
+    "CAS registry number": "7440-53-1",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Gadolinium",
@@ -2877,7 +2941,8 @@
     "Bulk modulus": "(α form) 37.9 GPa",
     "Poisson ratio": "(α form) 0.259",
     "Vickers hardness": "570 MPa",
-    "CAS registry number": "7440-54-2"
+    "CAS registry number": "7440-54-2",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Terbium",
@@ -2926,7 +2991,8 @@
     "Poisson ratio": "(α form) 0.261",
     "Vickers hardness": "863 MPa",
     "Brinell hardness": "677 MPa",
-    "CAS registry number": "7440-27-9"
+    "CAS registry number": "7440-27-9",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Dysprosium",
@@ -2973,7 +3039,8 @@
     "Poisson ratio": "(α form) 0.247",
     "Vickers hardness": "540 MPa",
     "Brinell hardness": "500 MPa",
-    "CAS registry number": "7429-91-6"
+    "CAS registry number": "7429-91-6",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Holmium",
@@ -3020,7 +3087,8 @@
     "Poisson ratio": "0.231",
     "Vickers hardness": "481 MPa",
     "Brinell hardness": "746 MPa",
-    "CAS registry number": "7440-60-0"
+    "CAS registry number": "7440-60-0",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Erbium",
@@ -3068,7 +3136,8 @@
     "Poisson ratio": "0.237",
     "Vickers hardness": "589 MPa",
     "Brinell hardness": "814 MPa",
-    "CAS registry number": "7440-52-0"
+    "CAS registry number": "7440-52-0",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Thulium",
@@ -3116,7 +3185,8 @@
     "Poisson ratio": "0.213",
     "Vickers hardness": "520 MPa",
     "Brinell hardness": "471 MPa",
-    "CAS registry number": "7440-30-4"
+    "CAS registry number": "7440-30-4",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Ytterbium",
@@ -3165,7 +3235,8 @@
     "Poisson ratio": "(β form) 0.207",
     "Vickers hardness": "206 MPa",
     "Brinell hardness": "343 MPa",
-    "CAS registry number": "7440-64-4"
+    "CAS registry number": "7440-64-4",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Lutetium",
@@ -3213,7 +3284,8 @@
     "Poisson ratio": "0.261",
     "Vickers hardness": "1160 MPa",
     "Brinell hardness": "893 MPa",
-    "CAS registry number": "7439-94-3"
+    "CAS registry number": "7439-94-3",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Hafnium",
@@ -3264,7 +3336,8 @@
     "Mohs hardness": "5.5",
     "Vickers hardness": "1760 MPa",
     "Brinell hardness": "1700 MPa",
-    "CAS registry number": "7440-58-6"
+    "CAS registry number": "7440-58-6",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Tantalum",
@@ -3313,7 +3386,8 @@
     "Mohs hardness": "6.5",
     "Vickers hardness": "873 MPa",
     "Brinell hardness": "800 MPa",
-    "CAS registry number": "7440-25-7"
+    "CAS registry number": "7440-25-7",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Tungsten",
@@ -3363,7 +3437,8 @@
     "Mohs hardness": "7.5",
     "Vickers hardness": "3430 MPa",
     "Brinell hardness": "2570 MPa",
-    "CAS registry number": "7440-33-7"
+    "CAS registry number": "7440-33-7",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Rhenium",
@@ -3414,7 +3489,8 @@
     "Mohs hardness": "7.0",
     "Vickers hardness": "2450 MPa",
     "Brinell hardness": "1320 MPa",
-    "CAS registry number": "7440-15-5"
+    "CAS registry number": "7440-15-5",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Osmium",
@@ -3461,7 +3537,8 @@
     "Poisson ratio": "0.25",
     "Mohs hardness": "7.0",
     "Brinell hardness": "3920 MPa",
-    "CAS registry number": "7440-04-2"
+    "CAS registry number": "7440-04-2",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Iridium",
@@ -3510,7 +3587,8 @@
     "Mohs hardness": "6.5",
     "Vickers hardness": "1760 MPa",
     "Brinell hardness": "1670 MPa",
-    "CAS registry number": "7439-88-5"
+    "CAS registry number": "7439-88-5",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Platinum",
@@ -3561,7 +3639,8 @@
     "Mohs hardness": "4–4.5",
     "Vickers hardness": "549 MPa",
     "Brinell hardness": "392 MPa",
-    "CAS registry number": "7440-06-4"
+    "CAS registry number": "7440-06-4",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Gold",
@@ -3612,7 +3691,8 @@
     "Mohs hardness": "2.5",
     "Vickers hardness": "216 MPa",
     "Brinell hardness": "25 HB = ?? MPa",
-    "CAS registry number": "7440-57-5"
+    "CAS registry number": "7440-57-5",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Mercury",
@@ -3655,7 +3735,8 @@
     "Thermal conductivity": "8.30 W·m−1·K−1",
     "Thermal expansion": "(25 °C) 60.4 µm·m−1·K−1",
     "Speed of sound": "(Liquid, 20 °C) 1451.4 m·s−1",
-    "CAS registry number": "7439-97-6"
+    "CAS registry number": "7439-97-6",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Thallium",
@@ -3704,7 +3785,8 @@
     "Poisson ratio": "0.45",
     "Mohs hardness": "1.2",
     "Brinell hardness": "26.4 MPa",
-    "CAS registry number": "7440-28-0"
+    "CAS registry number": "7440-28-0",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Lead",
@@ -3752,7 +3834,8 @@
     "Poisson ratio": "0.44",
     "Mohs hardness": "1.5",
     "Brinell hardness": "5.0 HB = 38.3 MPa",
-    "CAS registry number": "7439-92-1"
+    "CAS registry number": "7439-92-1",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Bismuth",
@@ -3800,14 +3883,15 @@
     "Poisson ratio": "0.33",
     "Mohs hardness": "2.25",
     "Brinell hardness": "94.2 MPa",
-    "CAS registry number": "7440-69-9"
+    "CAS registry number": "7440-69-9",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Polonium",
     "Symbol": "Po",
     "Number": 84,
     "Pronunciation": "/pɵˈloʊniəm/ po-LOH-nee-əm",
-    "Category": "Post-transition metal\nPost-transition metal status is disputed (see article text)",
+    "Category": "Post-transition metal",
     "Group": "16 (chalcogens)",
     "Period": 6,
     "Block": "p",
@@ -3842,7 +3926,8 @@
     "Electrical resistivity": "(0 °C) (α) 0.40 µΩ·m",
     "Thermal conductivity": " ? 20 W·m−1·K−1",
     "Thermal expansion": "(25 °C) 23.5 µm·m−1·K−1",
-    "CAS registry number": "7440-08-6"
+    "CAS registry number": "7440-08-6",
+    "Occurance": "From decay"
   },
   {
     "Name": "Astatine",
@@ -3876,7 +3961,8 @@
     "Van der Waals radius": "202 pm",
     "Magnetic ordering": "no data",
     "Thermal conductivity": "1.7 W·m−1·K−1",
-    "CAS registry number": "7440-68-8"
+    "CAS registry number": "7440-68-8",
+    "Occurance": "From decay"
   },
   {
     "Name": "Radon",
@@ -3916,7 +4002,8 @@
     "Crystal structure": "face-centered cubic",
     "Magnetic ordering": "non-magnetic",
     "Thermal conductivity": "3.61 m W·m−1·K−1",
-    "CAS registry number": "10043-92-2"
+    "CAS registry number": "10043-92-2",
+    "Occurance": "From decay"
   },
   {
     "Name": "Francium",
@@ -3956,7 +4043,8 @@
     "Magnetic ordering": "Paramagnetic",
     "Electrical resistivity": "3 µ (calculated)Ω·m",
     "Thermal conductivity": "15 (extrapolated) W·m−1·K−1",
-    "CAS registry number": "7440-73-5"
+    "CAS registry number": "7440-73-5",
+    "Occurance": "From decay"
   },
   {
     "Name": "Radium",
@@ -3995,7 +4083,8 @@
     "Magnetic ordering": "nonmagnetic",
     "Electrical resistivity": "(20 °C) 1 µΩ·m",
     "Thermal conductivity": "18.6 W·m−1·K−1",
-    "CAS registry number": "7440-14-4"
+    "CAS registry number": "7440-14-4",
+    "Occurance": "From decay"
   },
   {
     "Name": "Actinium",
@@ -4033,7 +4122,8 @@
     "Crystal structure": "face-centered cubic",
     "Magnetic ordering": "no data",
     "Thermal conductivity": "12 W·m−1·K−1",
-    "CAS registry number": "7440-34-8"
+    "CAS registry number": "7440-34-8",
+    "Occurance": "From decay"
   },
   {
     "Name": "Thorium",
@@ -4081,7 +4171,8 @@
     "Mohs hardness": "3.0",
     "Vickers hardness": "350 MPa",
     "Brinell hardness": "400 MPa",
-    "CAS registry number": "7440-29-1"
+    "CAS registry number": "7440-29-1",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Protactinium",
@@ -4122,7 +4213,8 @@
     "Magnetic ordering": "paramagnetic",
     "Electrical resistivity": "(0 °C) 177 nΩ·m",
     "Thermal conductivity": "47 W·m−1·K−1",
-    "CAS registry number": "7440-13-3"
+    "CAS registry number": "7440-13-3",
+    "Occurance": "From decay"
   },
   {
     "Name": "Uranium",
@@ -4171,7 +4263,8 @@
     "Shear modulus": "111 GPa",
     "Bulk modulus": "100 GPa",
     "Poisson ratio": "0.23",
-    "CAS registry number": "7440-61-1"
+    "CAS registry number": "7440-61-1",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Neptunium",
@@ -4211,7 +4304,8 @@
     "Magnetic ordering": "paramagnetic",
     "Electrical resistivity": "(22 °C) 1.220 µΩ·m",
     "Thermal conductivity": "6.3 W·m−1·K−1",
-    "CAS registry number": "7439-99-8"
+    "CAS registry number": "7439-99-8",
+    "Occurance": "From decay"
   },
   {
     "Name": "Plutonium",
@@ -4257,7 +4351,8 @@
     "Young's modulus": "96 GPa",
     "Shear modulus": "43 GPa",
     "Poisson ratio": "0.21",
-    "CAS registry number": "7440-07-5"
+    "CAS registry number": "7440-07-5",
+    "Occurance": "Primordial"
   },
   {
     "Name": "Americium",
@@ -4296,7 +4391,8 @@
     "Magnetic ordering": "paramagnetic",
     "Electrical resistivity": "0.69 µΩ·m",
     "Thermal conductivity": "10 W·m−1·K−1",
-    "CAS registry number": "7440-35-9"
+    "CAS registry number": "7440-35-9",
+    "Occurance": "From decay"
   },
   {
     "Name": "Curium",
@@ -4333,7 +4429,8 @@
     "Crystal structure": "hexagonal close-packed",
     "Magnetic ordering": "antiferromagnetic→paramagnetic transition at 52 K",
     "Electrical resistivity": "1.25 µΩ·m",
-    "CAS registry number": "7440-51-9"
+    "CAS registry number": "7440-51-9",
+    "Occurance": "From decay"
   },
   {
     "Name": "Berkelium",
@@ -4367,7 +4464,8 @@
     "Crystal structure": "hexagonal close-packed",
     "Magnetic ordering": "paramagnetic",
     "Thermal conductivity": "10 W·m−1·K−1",
-    "CAS registry number": "7440-40-6"
+    "CAS registry number": "7440-40-6",
+    "Occurance": "From decay"
   },
   {
     "Name": "Californium",
@@ -4400,7 +4498,8 @@
     "Ionization energies": "1st: 608 kJ·mol−1",
     "Crystal structure": "simple hexagonal",
     "Mohs hardness": "3–4",
-    "CAS registry number": "7440-71-3"
+    "CAS registry number": "7440-71-3",
+    "Occurance": "From decay"
   },
   {
     "Name": "Einsteinium",
@@ -4432,7 +4531,8 @@
     "Ionization energies": "1st: 619 kJ·mol−1",
     "Crystal structure": "face-centered cubic",
     "Magnetic ordering": "paramagnetic",
-    "CAS registry number": "7429-92-7"
+    "CAS registry number": "7429-92-7",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Fermium",
@@ -4461,7 +4561,8 @@
     "Oxidation states": "2, 3",
     "Electronegativity": "1.3 (Pauling scale)",
     "Ionization energies": "1st: 627 kJ·mol−1",
-    "CAS registry number": "7440-72-4"
+    "CAS registry number": "7440-72-4",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Mendelevium",
@@ -4491,7 +4592,8 @@
     "Electronegativity": "1.3 (Pauling scale)",
     "Ionization energies": "1st: 635 kJ·mol−1",
     "Magnetic ordering": "no data",
-    "CAS registry number": "7440-11-1"
+    "CAS registry number": "7440-11-1",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Nobelium",
@@ -4520,7 +4622,8 @@
     "Oxidation states": "2, 3",
     "Electronegativity": "1.3 (predicted) (Pauling scale)",
     "Ionization energies": "1st: 641.6 kJ·mol−1",
-    "CAS registry number": "10028-14-5"
+    "CAS registry number": "10028-14-5",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Lawrencium",
@@ -4547,7 +4650,8 @@
     "Phase": "Solid presumably",
     "Oxidation states": 3,
     "Ionization energies": "1st: 443.8 kJ·mol−1",
-    "CAS registry number": "22537-19-5"
+    "CAS registry number": "22537-19-5",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Rutherfordium",
@@ -4579,7 +4683,8 @@
     "Ionization energies\n(more)": "1st: 579.9 (estimated) kJ·mol−1",
     "Atomic radius": "150 (estimated) pm",
     "Covalent radius": "157 (estimated) pm",
-    "CAS registry number": "53850-36-5"
+    "CAS registry number": "53850-36-5",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Dubnium",
@@ -4603,7 +4708,8 @@
     "Ionization energies\n(more)": "1st: 664.8 (estimated) kJ·mol−1",
     "Atomic radius": "139 (estimated) pm",
     "Covalent radius": "149 (estimated) pm",
-    "CAS registry number": "53850-35-4"
+    "CAS registry number": "53850-35-4",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Seaborgium",
@@ -4627,7 +4733,8 @@
     "Ionization energies\n(more)": "1st: 757.4 (estimated) kJ·mol−1",
     "Atomic radius": "132 (predicted) pm",
     "Covalent radius": "143 (estimated) pm",
-    "CAS registry number": "54038-81-2"
+    "CAS registry number": "54038-81-2",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Bohrium",
@@ -4651,7 +4758,8 @@
     "Ionization energies\n(more)": "1st: 742.9 (estimated) kJ·mol−1",
     "Atomic radius": "128 (predicted) pm",
     "Covalent radius": "141 (estimated) pm",
-    "CAS registry number": "54037-14-8"
+    "CAS registry number": "54037-14-8",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Hassium",
@@ -4675,14 +4783,15 @@
     "Ionization energies\n(more)": "1st: 733.3 (estimated) kJ·mol−1",
     "Atomic radius": "126 (estimated) pm",
     "Covalent radius": "134 (estimated) pm",
-    "CAS registry number": "54037-57-9"
+    "CAS registry number": "54037-57-9",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Meitnerium",
     "Symbol": "Mt",
     "Number": 109,
     "Pronunciation": "/maɪtˈnɪəriəm/ myt-NEER-ee-əm\nor /ˈmaɪtnəriəm/ MYT-nər-ee-əm",
-    "Category": "Unknown",
+    "Category": "Unknown (Category)",
     "Group": 9,
     "Period": 7,
     "Block": "d",
@@ -4701,14 +4810,15 @@
     "Covalent radius": "129 (estimated) pm",
     "Crystal structure": "face-centered cubic (predicted)",
     "Magnetic ordering": "paramagnetic (predicted)",
-    "CAS registry number": "54038-01-6"
+    "CAS registry number": "54038-01-6",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Darmstadtium",
     "Symbol": "Ds",
     "Number": 110,
     "Pronunciation": "i/dɑrmˈʃtɑːtiəm/\ndarm-SHTAHT-ee-əm",
-    "Category": "Unknown",
+    "Category": "Unknown (Category)",
     "Group": 10,
     "Period": 7,
     "Block": "d",
@@ -4725,14 +4835,15 @@
     "Ionization energies\n(more)": "1st: 955.2 (estimated) kJ·mol−1",
     "Atomic radius": "118 (estimated) pm",
     "Covalent radius": "128 (estimated) pm",
-    "CAS registry number": "54083-77-1"
+    "CAS registry number": "54083-77-1",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Roentgenium",
     "Symbol": "Rg",
     "Number": 111,
     "Pronunciation": "i/rʌntˈɡɛniəm/\nrunt-GEN-ee-əm\nor /rɛntˈɡɛniəm/\nrent-GEN-ee-əm",
-    "Category": "Unknown",
+    "Category": "Unknown (Category)",
     "Group": 11,
     "Period": 7,
     "Block": "d",
@@ -4749,7 +4860,8 @@
     "Ionization energies\n(more)": "1st: 1022.7 (estimated) kJ·mol−1",
     "Atomic radius": "114 (predicted) pm",
     "Covalent radius": "121 (estimated) pm",
-    "CAS registry number": "54386-24-2"
+    "CAS registry number": "54386-24-2",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Copernicium",
@@ -4773,14 +4885,15 @@
     "Ionization energies\n(more)": "1st: 1154.9 (estimated) kJ·mol−1",
     "Atomic radius": "110 (predicted) pm",
     "Covalent radius": "122 (predicted) pm",
-    "CAS registry number": "54084-26-3"
+    "CAS registry number": "54084-26-3",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Ununtrium",
     "Symbol": "Uut",
     "Number": 113,
     "Pronunciation": "i/uːnˈuːntriəm/\noon-OON-tree-əm",
-    "Category": "Unknown",
+    "Category": "Unknown (Category)",
     "Group": 13,
     "Period": 7,
     "Block": "p",
@@ -4800,14 +4913,15 @@
     "Ionization energies": "1st: 704.9 (prediction) kJ·mol−1",
     "Atomic radius": "170 (prediction) pm",
     "Covalent radius": "136 (prediction) pm",
-    "CAS registry number": "54084-70-7"
+    "CAS registry number": "54084-70-7",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Flerovium",
     "Symbol": "Fl",
     "Number": 114,
     "Pronunciation": "/flɨˈroʊviəm/\nfli-ROH-vee-əm",
-    "Category": "Unknown",
+    "Category": "Unknown (Category)",
     "Group": 14,
     "Period": 7,
     "Block": "p",
@@ -4826,14 +4940,15 @@
     "Ionization energies": "1st: 823.9 (prediction) kJ·mol−1",
     "Atomic radius": "160 (estimated) pm",
     "Covalent radius": "143 (estimated) pm",
-    "CAS registry number": "54085-16-4"
+    "CAS registry number": "54085-16-4",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Ununpentium",
     "Symbol": "Uup",
     "Number": 115,
     "Pronunciation": "i/uːnuːnˈpɛntiəm/\noon-oon-PEN-tee-əm",
-    "Category": "Unknown",
+    "Category": "Unknown (Category)",
     "Group": "15 (pnictogens)",
     "Period": 7,
     "Block": "p",
@@ -4852,14 +4967,16 @@
     "Ionization energies": "1st: 538.4 (prediction) kJ·mol−1",
     "Atomic radius": "200 (predicted) pm",
     "Covalent radius": "162 (estimated) pm",
-    "CAS registry number": "54085-64-2"
+    "CAS registry number": "54085-64-2",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Livermorium",
     "Symbol": "Lv",
     "Number": 116,
     "Pronunciation": "/ˌlɪvərˈmɔəriəm/\nLIV-ər-MOHR-ee-əm",
-    "Category": "Unknown",
+    "Phase": "Unknown",
+    "Category": "Unknown (Category)",
     "Group": "16 (chalcogens)",
     "Period": 7,
     "Block": "p",
@@ -4874,14 +4991,15 @@
     "Oxidation states": "2, 4 (prediction)",
     "Ionization energies": "1st: 723.6 (prediction) kJ·mol−1",
     "Covalent radius": "175 (estimated) pm",
-    "CAS registry number": "54100-71-9"
+    "CAS registry number": "54100-71-9",
+    "Occurance": "Synthetic"
   },
   {
     "Name": "Ununseptium",
     "Symbol": "Uus",
     "Number": 117,
     "Pronunciation": "i/uːn.uːnˈsɛptiəm/\noon-oon-SEP-tee-əm",
-    "Category": "Unknown",
+    "Category": "Unknown (Category)",
     "Group": "17 (Halogen)",
     "Period": 7,
     "Block": "p",
@@ -4898,6 +5016,7 @@
     "Oxidation states": "−1, +1, +3, +5 (prediction)",
     "Ionization energies": "1st: 742.9 (prediction) kJ·mol−1",
     "Covalent radius": "165 (estimated) pm",
-    "CAS registry number": "54101-14-3"
+    "CAS registry number": "54101-14-3",
+    "Occurance": "Synthetic"
   }
 ]

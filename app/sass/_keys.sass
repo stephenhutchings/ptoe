@@ -1,0 +1,85 @@
+//
+ Key Elements
+
+#keys
+  text-align: center
+  color: white
+  width: 100%
+  position: absolute
+  right: 0
+  z-index: 1
+  margin: 34px 44px
+
+  .key-container
+    float: left
+    margin-left: 4px
+    padding: 2px
+
+  .key-list
+    list-style: none
+    padding: 0
+    margin: 0
+    float: left
+
+    .key-item
+      float: left
+      font-size: 14px
+      margin: 2px
+      padding: 0
+      width: 28px
+      height: 92px
+      position: relative
+      line-height: 100%
+      line-height: 28px
+      cursor: pointer
+
+      &.span2
+        width: 92px
+        height: 28px
+
+      &.bottom
+        clear: left
+
+    .rotate
+      position: absolute
+      top: 0
+      left: 100%
+      line-height: 28px
+      overflow: hidden
+      margin: 0
+      width: 92px
+
+      +transform(rotate(90deg))
+      +transform-origin(0, 0)
+
+  .key-group-container
+    position: absolute
+    pointer-events: none
+    right: 36px
+    opacity: 0
+    +transition(opacity 300ms)
+
+    &.key-active
+      pointer-events: all
+      opacity: 1
+
+  .key-switch-list
+    list-style: none
+    padding: 0
+    margin: 0
+    position: absolute
+    right: 0
+
+    .key-item
+      width: 32px
+      line-height: 32px
+      height: 32px
+      margin-left: 8px
+      margin-bottom: 4px
+      cursor: pointer
+
+    .key-active
+      margin-left: 0
+      border-left:
+        width: 8px
+        style: solid

@@ -1,6 +1,6 @@
-a.el-container(id="el-#{element.get("Symbol").toLowerCase()}",
-               class="#{element.get("Category").split(" ").join("-").toLowerCase()} #{element.get("Phase")}",
-               data-number=element.get("Number"))
-  .el
+.el(id=element.cssID()
+    class=element.cssClassName()
+    data-number=element.get("Number"))
+
     .num= element.get("Number")
-    .symbol= element.get("Symbol")
+    span.symbol= element.get("Symbol")

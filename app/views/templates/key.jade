@@ -1,50 +1,76 @@
 #keys
-  .key-container#key-sections
-    ul.key-list.genre
-      li.key-item.span6(data-sort="Metal")
-        .title Metals
+  .key-group-container.key-active
+    .key-container(data-focus="Metal, category")
+      .title Metals
 
-        ul.key-list.material
-          li.key-item.alkali-metal(data-sort="Alkali metal")
-            .rotate Alkali metals
+      ul.key-list.material
+        li.key-item.alkali-metal(data-focus="Alkali metal, category")
+          .rotate Alkali metals
 
-          li.key-item.alkaline-earth-metal(data-sort="Alkaline earth metal")
-            .rotate Alkali earth
+        li.key-item.alkaline-earth-metal(data-focus="Alkaline earth metal, category")
+          .rotate Alkali earth
 
-        ul.key-list.material
-          li.key-item.lanthanide.span2(data-sort="Lanthanide")
-            | Lanthanides
+        li.key-list.material
+          ul.key-list
+            li.key-item.transition-metal.span2(data-focus="Transition metal, category")
+              | Transition
 
-          li.key-item.actinide.span2.bottom(data-sort="Actinide")
-            | Actinides
+            li.key-item.lanthanide.span2.bottom(data-focus="Lanthanide, category")
+              | Lanthanides
 
-        ul.key-list.material
-          li.key-item.transition-metal(data-sort="Transition metal")
-            .rotate Transition metals
+            li.key-item.actinide.span2.bottom(data-focus="Actinide, category")
+              | Actinides
 
-          li.key-item.post-transition-metal(data-sort="Post-transition metal")
-            .rotate Post-transition metals
+        li.key-item.post-transition-metal(data-focus="Post-transition metal, category")
+          .rotate Post-transition
 
-          li.key-item.metalloid(data-sort="Metalloid")
-            .rotate Metalloids
+        
+    .key-container(data-focus="Metalloid, category")
+      .title &bull;
 
-      li.key-item.span2(data-sort="Nonmetal")
-        .title Nonmetals
+      ul.key-list.material
 
-        ul.key-list.material
+        li.key-item.metalloid(data-focus="Metalloid, category")
+          .rotate Metalloids
 
-          li.key-item.other-nonmetal(data-sort="Other nonmetal")
-            .rotate Other nonmetals
+    .key-container(data-focus="Nonmetal, category")
+      .title Nonmetals
 
-          li.key-item.halogen(data-sort="Halogen")
-            .rotate Halogens
+      ul.key-list.material
 
-          li.key-item.noble-gas(data-sort="Noble gas")
-            .rotate Noble gases
+        li.key-item.other-nonmetal(data-focus="Nonmetal, category")
+          .rotate Other
 
-  .key-container#key-states
+        li.key-item.halogen(data-focus="Halogen, category")
+          .rotate Halogens
+
+        li.key-item.noble-gas(data-focus="Noble gas, category")
+          .rotate.gas Noble gases
+
+  .key-container.key-group-container
+    .title Phase
     ul.key-list.state
-      li.key-item.solid(data-sort="Solid") Solid
-      li.key-item.gas(data-sort="Gas") Gas
-      li.key-item.liquid(data-sort="Liquid") Liquid
-      li.key-item.unknown(data-sort="Unknown") Unknown
+      li.key-item.solid(data-focus="Solid, phase")
+        .rotate Solid
+      li.key-item.gas(data-focus="Gas, phase")
+        .rotate Gas
+      li.key-item.liquid(data-focus="Liquid, phase")
+        .rotate Liquid
+      li.key-item.unknown(data-focus="Unknown, phase")
+        .rotate Unknown
+
+  .key-container.key-group-container
+    .title Occurance
+    ul.key-list.state
+      li.key-item.primordial(data-focus="Primordial, occurance")
+        .rotate Primordial
+      li.key-item.synthetic(data-focus="Synthetic, occurance")
+        .rotate Synthetic
+      li.key-item.decay(data-focus="From decay, occurance")
+        .rotate From decay
+
+  .key-switch
+    ul.key-switch-list
+      li.key-item.key-active &bull;
+      li.key-item &bull; &bull;
+      li.key-item &bull; &bull; &bull;

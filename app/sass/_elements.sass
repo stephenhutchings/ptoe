@@ -1,0 +1,104 @@
+#elements
+  clear: both
+  z-index: 2
+  position: absolute
+  margin: 44px
+  top: 188px
+  font-size: 24px
+  pointer-events: none
+
+  .el
+    float: left
+    pointer-events: all
+    position: relative
+    width: 42px
+    height: 44px
+    margin: 2px
+    padding: 2px 3px
+    cursor: pointer
+
+  .num
+    font-size: 12px
+    margin-bottom: -1px
+
+  .separator
+    border: 0
+    margin: 4px 0 0
+    float: left
+    clear: both
+    width: 100%
+
+  .extra-rows
+    margin-top: 4px
+    width: 780px
+    height: 104px
+    position: absolute
+    bottom: -2px
+    right: -2px
+    padding: 2px
+    z-index: -1
+    padding-left: 50px
+    margin-right: 0px
+    background-color: #E5EEF5
+    opacity: 0
+    +transition(opacity 300ms 600ms)
+
+    .special
+      background-color: #E5EEF5
+      height: 104px
+      position: absolute
+      width: 48px
+      left: 0
+      bottom: 100%
+
+      .num
+        margin: 4px 4px 36px
+
+  .clone
+    width: 84px
+    height: 88px
+    font-size: 24px * (96/48)
+    padding: 4px 6px
+    position: absolute
+    top: -144px
+    left: 0
+    opacity: 0
+    pointer-events: none
+    z-index: 1
+
+    .num
+      font-size: 12px * (96/48)
+      margin-bottom: -2px
+
+  // Long title
+  #el-uup
+    letter-spacing: -1px
+
+  // Pushers. These elements create the table gaps
+  #el-he
+    margin-left: 834px
+
+  #el-b,
+  #el-al
+    margin-left: 522px
+
+  #el-hf,
+  #el-rf
+    margin-left: 54px
+
+  #el-la,
+  #el-ac
+    clear: both
+    margin-left: 158px
+
+.focused
+  #elements .clone
+    opacity: 1
+
+.ready
+  #elements .extra-rows
+    opacity: 1
+.focus
+  #elements .extra-rows
+    opacity: 0
+    +transition-delay(0)
